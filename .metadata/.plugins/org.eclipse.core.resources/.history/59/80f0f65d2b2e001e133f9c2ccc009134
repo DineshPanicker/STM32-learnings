@@ -1,0 +1,12 @@
+#include<stdio.h>
+
+
+long long int g_data = 0xFFFEABCD11112345;
+int main()
+{
+	char *pAddress1;
+
+	pAddress1 = &g_data;
+
+	return 0;
+}

@@ -1,0 +1,26 @@
+00:18:53 **** Build of configuration Debug for project Code_Data_memory ****
+make -j12 all 
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -c -x assembler-with-cpp --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Startup/startup_stm32f401retx.o" "../Startup/startup_stm32f401retx.s"
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DNUCLEO_F401RE -DSTM32 -DSTM32F401RETx -DSTM32F4 -DDEBUG -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -save-temps -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+arm-none-eabi-gcc "../Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DNUCLEO_F401RE -DSTM32 -DSTM32F401RETx -DSTM32F4 -DDEBUG -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -save-temps -fstack-usage -MMD -MP -MF"Src/syscalls.d" -MT"Src/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/syscalls.o"
+arm-none-eabi-gcc "../Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DNUCLEO_F401RE -DSTM32 -DSTM32F401RETx -DSTM32F4 -DDEBUG -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -save-temps -fstack-usage -MMD -MP -MF"Src/sysmem.d" -MT"Src/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/sysmem.o"
+arm-none-eabi-gcc -o "Code_Data_memory.elf" @"objects.list"   -mcpu=cortex-m4 -T"A:\E.C.E\ONLINE COURSES\Udemy STM32\Embedded C\My_Workspace\target\Code_Data_memory\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Code_Data_memory.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Code_Data_memory.elf
+ 
+arm-none-eabi-size   Code_Data_memory.elf 
+arm-none-eabi-objdump -h -S  Code_Data_memory.elf  > "Code_Data_memory.list"
+arm-none-eabi-objcopy  -O ihex  Code_Data_memory.elf  "Code_Data_memory.hex"
+   text	   data	    bss	    dec	    hex	filename
+   4888	    116	   1588	   6592	   19c0	Code_Data_memory.elf
+arm-none-eabi-objcopy  -O binary  Code_Data_memory.elf  "Code_Data_memory.bin"
+Finished building: default.size.stdout
+ 
+Finished building: Code_Data_memory.hex
+Finished building: Code_Data_memory.list
+Finished building: Code_Data_memory.bin
+ 
+ 
+ 
+
+00:19:04 Build Finished. 0 errors, 0 warnings. (took 11s.97ms)
+

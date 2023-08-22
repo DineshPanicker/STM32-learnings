@@ -1,0 +1,21 @@
+#include<stdio.h>
+
+int main()
+{
+
+	char addr = '2';
+
+	printf("%c",&addr);
+
+	char* ptr = (char*) addr;
+
+	char data = *ptr;
+
+	printf("%c",data);
+
+	*ptr = 65;
+
+	printf("%d",&addr);
+
+	return 0;
+}

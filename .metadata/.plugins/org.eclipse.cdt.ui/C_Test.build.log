@@ -1,0 +1,5 @@
+00:18:38 **** Clean-only build of configuration Debug for project C_Test ****
+rm -rf main.o C_Test.exe main.d 
+
+00:18:39 Build Finished. 0 errors, 0 warnings. (took 667ms)
+

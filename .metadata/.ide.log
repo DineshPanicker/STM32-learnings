@@ -1,0 +1,842 @@
+2022-06-20 11:03:15,521 [INFO] Activator:176 - 
+
+
+2022-06-20 11:03:15,550 [INFO] Activator:177 - !SESSION log4j initialized
+2022-06-20 11:04:04,755 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://archive.eclipse.org:443: The target server failed to respond
+2022-06-20 11:04:04,760 [INFO] RetryExec:113 - Retrying request to {s}->https://archive.eclipse.org:443
+2022-06-25 23:19:04,116 [INFO] Activator:176 - 
+
+
+2022-06-25 23:19:04,118 [INFO] Activator:177 - !SESSION log4j initialized
+2022-06-25 23:20:43,042 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://download.eclipse.org:443: The target server failed to respond
+2022-06-25 23:20:43,045 [INFO] RetryExec:113 - Retrying request to {s}->https://download.eclipse.org:443
+2022-06-25 23:20:44,261 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://archive.eclipse.org:443: The target server failed to respond
+2022-06-25 23:20:44,261 [INFO] RetryExec:113 - Retrying request to {s}->https://archive.eclipse.org:443
+2022-06-25 23:20:45,599 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://download.eclipse.org:443: The target server failed to respond
+2022-06-25 23:20:45,599 [INFO] RetryExec:113 - Retrying request to {s}->https://download.eclipse.org:443
+2022-06-25 23:22:26,586 [INFO] ApplicationProperties:181 - Using Application install path: G:\stm32cubeide_main\stm32\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511
+2022-06-25 23:22:26,628 [INFO] DbMcusXml:69 - Set database path to: G:\stm32cubeide_main\stm32\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/mcu/
+2022-06-25 23:22:26,632 [INFO] DbBoardsPdsc:54 - Set plugin database path to: G:\stm32cubeide_main\stm32\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/plugins/boardmanager/
+2022-06-25 23:22:26,632 [INFO] DbMcus:264 - Set plugin images path to: G:\stm32cubeide_main\stm32\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/plugins/mcufinder/images/
+2022-06-25 23:22:26,632 [INFO] DbBoards:232 - Set plugin images path to: G:\stm32cubeide_main\stm32\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/plugins/mcufinder/images/
+2022-06-25 23:22:26,636 [INFO] APIGFXSelector:72 - Set database path to: G:\stm32cubeide_main\stm32\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/plugins/mcufinder/mcu/
+2022-06-25 23:22:26,685 [INFO] DbMcusAds:72 - Set database path to: C:\Users\dines\.stmcufinder\plugins\mcufinder//mcu/
+2022-06-25 23:22:26,686 [INFO] DbMcusDocs:92 - Set database path to: C:\Users\dines\.stmcufinder\plugins\mcufinder//mcu/
+2022-06-25 23:22:26,687 [INFO] DbMcusJson:59 - Set database path to: C:\Users\dines\.stmcufinder\plugins\mcufinder//mcu/
+2022-06-25 23:22:26,688 [INFO] DbBoardsDocs:84 - Set database path to: C:\Users\dines\.stmcufinder\plugins\mcufinder//mcu/
+2022-06-25 23:22:26,689 [INFO] DbBoardsJson:51 - Set database path to: C:\Users\dines\.stmcufinder\plugins\mcufinder//mcu/
+2022-06-25 23:22:26,959 [INFO] CrossReferenceDbSqlite:197 - Set database path to: C:\Users\dines\.stmcufinder\plugins\mcufinder//mcu/cs/
+2022-06-25 23:22:27,162 [INFO] RulesReader:52 - Compatibility file has been processed (205 Rules)
+2022-06-25 23:22:27,321 [INFO] MicroXplorer:570 - Detected Java Version = 1.8.0_202
+2022-06-25 23:22:27,321 [INFO] DbMcusXml:69 - Set database path to: G:\stm32cubeide_main\stm32\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/mcu/
+2022-06-25 23:22:27,322 [INFO] DbBoardsPdsc:54 - Set plugin database path to: G:\stm32cubeide_main\stm32\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/plugins/boardmanager/
+2022-06-25 23:22:27,322 [INFO] DbMcus:264 - Set plugin images path to: G:\stm32cubeide_main\stm32\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/plugins/mcufinder/images/
+2022-06-25 23:22:27,354 [INFO] DbBoards:232 - Set plugin images path to: G:\stm32cubeide_main\stm32\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/plugins/mcufinder/images/
+2022-06-25 23:22:27,355 [INFO] APIGFXSelector:72 - Set database path to: G:\stm32cubeide_main\stm32\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/plugins/mcufinder/mcu/
+2022-06-25 23:22:27,355 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\dines\.stmcufinder\plugins\mcufinder/ => C:\Users\dines\.stmcufinder\plugins\mcufinder
+2022-06-25 23:22:27,355 [INFO] DbMcusAds:72 - Set database path to: C:\Users\dines\.stmcufinder\plugins\mcufinder//mcu/
+2022-06-25 23:22:27,355 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\dines\.stmcufinder\plugins\mcufinder/ => C:\Users\dines\.stmcufinder\plugins\mcufinder
+2022-06-25 23:22:27,355 [INFO] DbMcusDocs:92 - Set database path to: C:\Users\dines\.stmcufinder\plugins\mcufinder//mcu/
+2022-06-25 23:22:27,355 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\dines\.stmcufinder\plugins\mcufinder/ => C:\Users\dines\.stmcufinder\plugins\mcufinder
+2022-06-25 23:22:27,355 [INFO] DbMcusJson:59 - Set database path to: C:\Users\dines\.stmcufinder\plugins\mcufinder//mcu/
+2022-06-25 23:22:27,355 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\dines\.stmcufinder\plugins\mcufinder/ => C:\Users\dines\.stmcufinder\plugins\mcufinder
+2022-06-25 23:22:27,356 [INFO] DbBoardsDocs:84 - Set database path to: C:\Users\dines\.stmcufinder\plugins\mcufinder//mcu/
+2022-06-25 23:22:27,356 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\dines\.stmcufinder\plugins\mcufinder/ => C:\Users\dines\.stmcufinder\plugins\mcufinder
+2022-06-25 23:22:27,356 [INFO] DbBoardsJson:51 - Set database path to: C:\Users\dines\.stmcufinder\plugins\mcufinder//mcu/
+2022-06-25 23:22:27,356 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\dines\.stmcufinder\plugins\mcufinder/ => C:\Users\dines\.stmcufinder\plugins\mcufinder
+2022-06-25 23:22:27,356 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\dines\.stmcufinder\plugins\mcufinder/ => C:\Users\dines\.stmcufinder\plugins\mcufinder
+2022-06-25 23:22:27,356 [INFO] CrossReferenceDbSqlite:197 - Set database path to: C:\Users\dines\.stmcufinder\plugins\mcufinder//mcu/cs/
+2022-06-25 23:22:27,469 [INFO] MainPanel:180 - HeapMemory: 457179136
+2022-06-25 23:22:27,518 [INFO] DbMcusXml:69 - Set database path to: G:\stm32cubeide_main\stm32\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/mcu/
+2022-06-25 23:22:27,519 [INFO] DbBoardsPdsc:54 - Set plugin database path to: G:\stm32cubeide_main\stm32\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/plugins/boardmanager/
+2022-06-25 23:22:27,519 [INFO] DbMcus:264 - Set plugin images path to: G:\stm32cubeide_main\stm32\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/plugins/mcufinder/images/
+2022-06-25 23:22:27,519 [INFO] DbBoards:232 - Set plugin images path to: G:\stm32cubeide_main\stm32\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/plugins/mcufinder/images/
+2022-06-25 23:22:27,519 [INFO] APIGFXSelector:72 - Set database path to: G:\stm32cubeide_main\stm32\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/plugins/mcufinder/mcu/
+2022-06-25 23:22:27,520 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\dines\.stmcufinder\plugins\mcufinder/ => C:\Users\dines\.stmcufinder\plugins\mcufinder
+2022-06-25 23:22:27,520 [INFO] DbMcusAds:72 - Set database path to: C:\Users\dines\.stmcufinder\plugins\mcufinder//mcu/
+2022-06-25 23:22:27,520 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\dines\.stmcufinder\plugins\mcufinder/ => C:\Users\dines\.stmcufinder\plugins\mcufinder
+2022-06-25 23:22:27,520 [INFO] DbMcusDocs:92 - Set database path to: C:\Users\dines\.stmcufinder\plugins\mcufinder//mcu/
+2022-06-25 23:22:27,520 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\dines\.stmcufinder\plugins\mcufinder/ => C:\Users\dines\.stmcufinder\plugins\mcufinder
+2022-06-25 23:22:27,520 [INFO] DbMcusJson:59 - Set database path to: C:\Users\dines\.stmcufinder\plugins\mcufinder//mcu/
+2022-06-25 23:22:27,520 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\dines\.stmcufinder\plugins\mcufinder/ => C:\Users\dines\.stmcufinder\plugins\mcufinder
+2022-06-25 23:22:27,520 [INFO] DbBoardsDocs:84 - Set database path to: C:\Users\dines\.stmcufinder\plugins\mcufinder//mcu/
+2022-06-25 23:22:27,521 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\dines\.stmcufinder\plugins\mcufinder/ => C:\Users\dines\.stmcufinder\plugins\mcufinder
+2022-06-25 23:22:27,521 [INFO] DbBoardsJson:51 - Set database path to: C:\Users\dines\.stmcufinder\plugins\mcufinder//mcu/
+2022-06-25 23:22:27,521 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\dines\.stmcufinder\plugins\mcufinder/ => C:\Users\dines\.stmcufinder\plugins\mcufinder
+2022-06-25 23:22:27,521 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\dines\.stmcufinder\plugins\mcufinder/ => C:\Users\dines\.stmcufinder\plugins\mcufinder
+2022-06-25 23:22:27,521 [INFO] CrossReferenceDbSqlite:197 - Set database path to: C:\Users\dines\.stmcufinder\plugins\mcufinder//mcu/cs/
+2022-06-25 23:22:27,536 [INFO] ApplicationProperties:181 - Using Application install path: G:\stm32cubeide_main\stm32\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511
+2022-06-25 23:22:27,537 [INFO] PluginManage:178 - Search for loadable plugins [exclusion list=]
+2022-06-25 23:22:27,551 [INFO] PluginManage:292 - Check plugin analytics
+2022-06-25 23:22:27,583 [INFO] PluginManage:342 - Loaded plugin analytics (category:tool,tabindex:-1)
+2022-06-25 23:22:27,583 [INFO] PluginManage:292 - Check plugin clock
+2022-06-25 23:22:27,613 [INFO] PluginManage:342 - Loaded plugin clock (category:base,tabindex:2)
+2022-06-25 23:22:27,613 [INFO] PluginManage:292 - Check plugin ddr
+2022-06-25 23:22:27,623 [INFO] PluginManage:342 - Loaded plugin ddr (category:tool,tabindex:6)
+2022-06-25 23:22:27,624 [INFO] PluginManage:292 - Check plugin filemanager
+2022-06-25 23:22:27,811 [INFO] PluginManage:342 - Loaded plugin filemanager (category:base,tabindex:10)
+2022-06-25 23:22:27,812 [INFO] PluginManage:292 - Check plugin ipmanager
+2022-06-25 23:22:27,836 [INFO] PluginManage:342 - Loaded plugin ipmanager (category:base,tabindex:5)
+2022-06-25 23:22:27,836 [INFO] PluginManage:292 - Check plugin pinoutandconfiguration
+2022-06-25 23:22:27,865 [INFO] PluginManage:342 - Loaded plugin pinoutandconfiguration (category:base,tabindex:1)
+2022-06-25 23:22:27,865 [INFO] PluginManage:292 - Check plugin pinoutconfig
+2022-06-25 23:22:27,895 [INFO] PluginManage:342 - Loaded plugin pinoutconfig (category:base,tabindex:0)
+2022-06-25 23:22:27,895 [INFO] PluginManage:292 - Check plugin power
+2022-06-25 23:22:27,936 [INFO] PluginManage:342 - Loaded plugin power (category:power,tabindex:4)
+2022-06-25 23:22:27,936 [INFO] PluginManage:292 - Check plugin projectmanager
+2022-06-25 23:22:27,958 [INFO] PluginManage:342 - Loaded plugin projectmanager (category:projectmanager,tabindex:3)
+2022-06-25 23:22:27,958 [INFO] PluginManage:292 - Check plugin thirdparty
+2022-06-25 23:22:28,130 [INFO] ThirdPartyDb:295 - Open Third Party DataBase File (C:/Users/dines/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) : 47 ms. number of Sw pack : 39
+2022-06-25 23:22:28,162 [INFO] PluginManage:342 - Loaded plugin thirdparty (category:base,tabindex:-1)
+2022-06-25 23:22:28,163 [INFO] PluginManage:292 - Check plugin tools
+2022-06-25 23:22:28,181 [INFO] PluginManage:342 - Loaded plugin tools (category:base,tabindex:7)
+2022-06-25 23:22:28,182 [INFO] PluginManage:292 - Check plugin updater
+2022-06-25 23:22:28,247 [INFO] PluginManage:342 - Loaded plugin updater (category:base,tabindex:12)
+2022-06-25 23:22:28,249 [INFO] PluginManage:265 - PluginManage : Loaded plugins [12]
+2022-06-25 23:22:28,398 [INFO] PinOutPanel:1399 - setPackage(No Configuration,No Configuration)
+2022-06-25 23:22:28,511 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-06-25 23:22:28,511 [INFO] PluginManager:200 - loadIPPluginJar : add adc
+2022-06-25 23:22:28,539 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-06-25 23:22:28,540 [INFO] PluginManager:200 - loadIPPluginJar : add aes
+2022-06-25 23:22:28,586 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-06-25 23:22:28,587 [INFO] PluginManager:200 - loadIPPluginJar : add can
+2022-06-25 23:22:28,601 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-06-25 23:22:28,601 [INFO] PluginManager:200 - loadIPPluginJar : add comp
+2022-06-25 23:22:28,618 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-06-25 23:22:28,619 [INFO] PluginManager:200 - loadIPPluginJar : add cryp
+2022-06-25 23:22:28,638 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-06-25 23:22:28,638 [INFO] PluginManager:200 - loadIPPluginJar : add dfsdm
+2022-06-25 23:22:28,654 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-06-25 23:22:28,654 [INFO] PluginManager:200 - loadIPPluginJar : add dma
+2022-06-25 23:22:28,667 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-06-25 23:22:28,668 [INFO] PluginManager:200 - loadIPPluginJar : add fatfs
+2022-06-25 23:22:28,708 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-06-25 23:22:28,708 [INFO] PluginManager:200 - loadIPPluginJar : add fmc
+2022-06-25 23:22:28,736 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-06-25 23:22:28,737 [INFO] PluginManager:200 - loadIPPluginJar : add freertos
+2022-06-25 23:22:28,751 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-06-25 23:22:28,752 [INFO] PluginManager:200 - loadIPPluginJar : add genericplugin
+2022-06-25 23:22:28,821 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-06-25 23:22:28,821 [INFO] PluginManager:200 - loadIPPluginJar : add gfxmmu
+2022-06-25 23:22:28,830 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-06-25 23:22:28,830 [INFO] PluginManager:200 - loadIPPluginJar : add gfxsimulator
+2022-06-25 23:22:28,911 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-06-25 23:22:28,911 [INFO] PluginManager:200 - loadIPPluginJar : add gic
+2022-06-25 23:22:28,929 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-06-25 23:22:28,929 [INFO] PluginManager:200 - loadIPPluginJar : add gpio
+2022-06-25 23:22:28,968 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-06-25 23:22:28,968 [INFO] PluginManager:200 - loadIPPluginJar : add gtzc
+2022-06-25 23:22:28,987 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-06-25 23:22:28,987 [INFO] PluginManager:200 - loadIPPluginJar : add hash
+2022-06-25 23:22:29,020 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-06-25 23:22:29,020 [INFO] PluginManager:200 - loadIPPluginJar : add i2c
+2022-06-25 23:22:29,047 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-06-25 23:22:29,047 [INFO] PluginManager:200 - loadIPPluginJar : add i2s
+2022-06-25 23:22:29,136 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-06-25 23:22:29,136 [INFO] PluginManager:200 - loadIPPluginJar : add ipddr
+2022-06-25 23:22:29,159 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-06-25 23:22:29,160 [INFO] PluginManager:200 - loadIPPluginJar : add ltdc
+2022-06-25 23:22:29,170 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-06-25 23:22:29,170 [INFO] PluginManager:200 - loadIPPluginJar : add mdma
+2022-06-25 23:22:29,180 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-06-25 23:22:29,180 [INFO] PluginManager:200 - loadIPPluginJar : add nvic
+2022-06-25 23:22:29,202 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-06-25 23:22:29,203 [INFO] PluginManager:200 - loadIPPluginJar : add opamp
+2022-06-25 23:22:29,232 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-06-25 23:22:29,232 [INFO] PluginManager:200 - loadIPPluginJar : add pdm2pcm
+2022-06-25 23:22:29,246 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-06-25 23:22:29,248 [INFO] PluginManager:200 - loadIPPluginJar : add plateformsettings
+2022-06-25 23:22:29,261 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-06-25 23:22:29,261 [INFO] PluginManager:200 - loadIPPluginJar : add quadspi
+2022-06-25 23:22:29,281 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-06-25 23:22:29,281 [INFO] PluginManager:200 - loadIPPluginJar : add resmgrutility
+2022-06-25 23:22:29,317 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-06-25 23:22:29,317 [INFO] PluginManager:200 - loadIPPluginJar : add sai
+2022-06-25 23:22:29,343 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-06-25 23:22:29,344 [INFO] PluginManager:200 - loadIPPluginJar : add spi
+2022-06-25 23:22:29,372 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-06-25 23:22:29,373 [INFO] PluginManager:200 - loadIPPluginJar : add stm32_wpan
+2022-06-25 23:22:29,387 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-06-25 23:22:29,387 [INFO] PluginManager:200 - loadIPPluginJar : add tim
+2022-06-25 23:22:29,441 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-06-25 23:22:29,442 [INFO] PluginManager:200 - loadIPPluginJar : add touchsensing
+2022-06-25 23:22:29,458 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-06-25 23:22:29,459 [INFO] PluginManager:200 - loadIPPluginJar : add tracer_emb
+2022-06-25 23:22:29,476 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-06-25 23:22:29,476 [INFO] PluginManager:200 - loadIPPluginJar : add ts
+2022-06-25 23:22:29,490 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-06-25 23:22:29,490 [INFO] PluginManager:200 - loadIPPluginJar : add tsc
+2022-06-25 23:22:29,510 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-06-25 23:22:29,510 [INFO] PluginManager:200 - loadIPPluginJar : add ucpd
+2022-06-25 23:22:29,539 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-06-25 23:22:29,539 [INFO] PluginManager:200 - loadIPPluginJar : add usart
+2022-06-25 23:22:30,288 [INFO] BoardConnectionPanel:226 - [DDR PANEL] osNameString: Windows
+2022-06-25 23:22:30,382 [INFO] BoardConnectionPanel:3472 - [DDR PANEL] STM32CubeIDE environment
+2022-06-25 23:22:30,383 [INFO] MainDdrPanel:103 - [DDR PANEL] GETTER - cubeProgrammerPath is: null
+2022-06-25 23:22:30,540 [FATAL] Updater:277 - Updater called before beeing initialized
+2022-06-25 23:22:30,811 [FATAL] Updater:277 - Updater called before beeing initialized
+2022-06-25 23:22:30,814 [INFO] PinOutPanel:1399 - setPackage(No Configuration,No Configuration)
+2022-06-25 23:22:30,815 [FATAL] Updater:277 - Updater called before beeing initialized
+2022-06-25 23:22:30,819 [INFO] BoardConnectionPanel:3472 - [DDR PANEL] STM32CubeIDE environment
+2022-06-25 23:22:30,819 [INFO] MainDdrPanel:103 - [DDR PANEL] GETTER - cubeProgrammerPath is: G:\stm32cubeide_main\stm32\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_1.1.0.201910081157\tools\bin
+2022-06-25 23:22:30,824 [INFO] ProgrammerExecThread:148 - [ProgrammerAPI] CubeProgrammer command construction: G:\stm32cubeide_main\stm32\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_1.1.0.201910081157\tools\bin\STM32_Programmer_CLI.exe -l
+2022-06-25 23:22:31,143 [FATAL] Updater:277 - Updater called before beeing initialized
+2022-06-25 23:22:31,143 [ERROR] IntegrityCheckThread:252 - Cannot obtain thirdParties list 21
+2022-06-25 23:22:31,143 [ERROR] IntegrityCheckThread:100 - Unexpected exception IntegrityCheckThread Thread: Updater error
+2022-06-25 23:22:31,144 [INFO] ThirdPartyDb:261 - Close Third Party DataBase File (C:/Users/dines/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml)
+2022-06-25 23:22:31,486 [INFO] MainDdrPanel:93 - [DDR PANEL] SETTER - Set cubeProgrammerPath to: G:\stm32cubeide_main\stm32\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_1.1.0.201910081157\tools\bin
+2022-06-25 23:22:31,538 [INFO] Updater:886 - Updater Version found : 5.5.0
+2022-06-25 23:22:31,570 [INFO] ApplicationProperties:181 - Using Application install path: G:\stm32cubeide_main\stm32\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511
+2022-06-25 23:22:32,777 [INFO] MainUpdater:2230 - connection check result : 10
+2022-06-25 23:22:32,778 [INFO] MainUpdater:2874 - Updater definition file requires update
+2022-06-25 23:22:32,778 [INFO] MainUpdater:236 - Updater Check For Update Now.
+2022-06-25 23:22:32,779 [INFO] MicroXplorer:420 - Change Database Version : DB.5.0.50
+2022-06-25 23:22:33,476 [INFO] ServerAccessManage:348 - Download File updaters.zip
+2022-06-25 23:22:33,585 [INFO] FileExtend:225 - Unzip File : updaters.zip
+2022-06-25 23:22:33,585 [INFO] FileExtend:240 - Standard Zip Deflate
+2022-06-25 23:22:34,259 [INFO] ServerAccessManage:348 - Download File PacksControlFlags.xml
+2022-06-25 23:22:34,607 [INFO] ServerAccessManage:348 - Download File cubemx.pidx
+2022-06-25 23:22:34,742 [INFO] LoadServerUpdatesThread:301 - End of LoadServerUpdate Thread
+2022-06-25 23:22:34,788 [INFO] CheckServerUpdateThread:92 - End of CheckServer Thread
+2022-06-25 23:22:34,903 [INFO] MainUpdater:2230 - connection check result : 10
+2022-06-25 23:22:34,904 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Successfull proxy connection.
+2022-06-25 23:22:35,398 [INFO] McuFinderGlobals:40 - Set McuFinder mode to 2 (CubeIDE integrated)
+2022-06-25 23:22:35,409 [INFO] FinderPluginLoader:86 - Searching for filters in installed packs
+2022-06-25 23:22:35,411 [INFO] DbMcusXml:107 - Load MCU database from G:\stm32cubeide_main\stm32\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/mcu/families.xml
+2022-06-25 23:22:36,020 [INFO] DbMcusJson:87 - JSON generation date=Tue Nov 16 21:47:54 IST 2021 (1637079474)
+2022-06-25 23:22:37,249 [INFO] DbMcus:192 - Found 1628 MCUs (1588 are supported by CubeMX, 1588 are visible in CubeMX)
+2022-06-25 23:22:37,250 [INFO] ApiDb:158 - Load user favorites file C:\Users\dines/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2022-06-25 23:22:37,250 [INFO] ApiDb:163 - User favorites MCUs=[]
+2022-06-25 23:22:37,251 [INFO] DbMcus:203 - Set 0 / 0 favorites MCUs
+2022-06-25 23:22:37,779 [INFO] LoadUrlFilesThread:161 - End of LoadServerUrlFiles without Thread
+2022-06-25 23:22:37,839 [INFO] McuDetailPanel:181 - Set advertising image to C:/Users/dines/STM32Cube/Repository/\en.Prom_NBSTM32U50921.jpg
+2022-06-25 23:22:38,870 [INFO] ServerAccessManage:348 - Download File mcusDocs.json
+2022-06-25 23:22:39,135 [INFO] LoadUrlFilesThread:134 - End of LoadUrlFiles Thread
+2022-06-25 23:22:39,320 [INFO] ServerAccessManage:348 - Download File mcusFeaturesAndDescription.json
+2022-06-25 23:22:43,727 [INFO] LoadUrlFilesThread:134 - End of LoadUrlFiles Thread
+2022-06-25 23:22:43,903 [INFO] ServerAccessManage:348 - Download File mcusAds.json
+2022-06-25 23:22:43,913 [INFO] LoadUrlFilesThread:134 - End of LoadUrlFiles Thread
+2022-06-25 23:22:44,086 [INFO] ServerAccessManage:348 - Download File boardsDocs.json
+2022-06-25 23:22:44,103 [INFO] LoadUrlFilesThread:134 - End of LoadUrlFiles Thread
+2022-06-25 23:22:44,294 [INFO] ServerAccessManage:348 - Download File boards.json
+2022-06-25 23:22:44,898 [INFO] LoadUrlFilesThread:134 - End of LoadUrlFiles Thread
+2022-06-25 23:22:45,956 [INFO] ServerAccessManage:348 - Download File crdb.zip
+2022-06-25 23:22:47,392 [INFO] FileExtend:225 - Unzip File : crdb.zip
+2022-06-25 23:22:47,394 [INFO] FileExtend:240 - Standard Zip Deflate
+2022-06-25 23:22:47,438 [INFO] LoadUrlFilesThread:134 - End of LoadUrlFiles Thread
+2022-06-25 23:22:47,442 [INFO] DbMcusDocs:126 - JSON generation date=Tue Nov 16 21:47:54 IST 2021 (1637079474)
+2022-06-25 23:22:47,735 [INFO] DbMcusDocs:61 - Found 682 MCUs documents
+2022-06-25 23:22:47,736 [INFO] ApiDb:186 - Save user favorites file C:\Users\dines/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2022-06-25 23:22:47,736 [INFO] ApiDb:191 - User favorites MCUs=[]
+2022-06-25 23:22:47,736 [INFO] DbMcusXml:107 - Load MCU database from G:\stm32cubeide_main\stm32\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/mcu/families.xml
+2022-06-25 23:22:48,050 [INFO] DbMcusJson:87 - JSON generation date=Tue Nov 16 21:47:54 IST 2021 (1637079474)
+2022-06-25 23:22:48,649 [INFO] DbMcus:192 - Found 1628 MCUs (1588 are supported by CubeMX, 1588 are visible in CubeMX)
+2022-06-25 23:22:49,010 [INFO] ApiDb:158 - Load user favorites file C:\Users\dines/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2022-06-25 23:22:49,011 [INFO] ApiDb:163 - User favorites MCUs=[]
+2022-06-25 23:22:49,011 [INFO] DbMcus:203 - Set 0 / 0 favorites MCUs
+2022-06-25 23:22:49,057 [INFO] McuFilterPanel:282 - Update 0 favorites MCUs
+2022-06-25 23:22:49,233 [INFO] DbBoardsDocs:118 - JSON generation date=Tue Nov 16 21:47:54 IST 2021 (1637079474)
+2022-06-25 23:22:49,297 [INFO] DbBoardsPdsc:92 - Found 21 items
+2022-06-25 23:22:49,308 [INFO] DbBoardsPdsc:92 - Found 9 items
+2022-06-25 23:22:49,317 [INFO] DbBoardsPdsc:92 - Found 27 items
+2022-06-25 23:22:49,329 [INFO] DbBoardsPdsc:92 - Found 1 items
+2022-06-25 23:22:49,346 [INFO] DbBoardsPdsc:92 - Found 40 items
+2022-06-25 23:22:49,356 [INFO] DbBoardsPdsc:92 - Found 39 items
+2022-06-25 23:22:49,363 [INFO] DbBoardsPdsc:92 - Found 2 items
+2022-06-25 23:22:49,380 [INFO] DbBoardsPdsc:92 - Found 4 items
+2022-06-25 23:22:49,383 [WARN] DbBoardsPdsc:256 - Board STM32H7B3I-DK: unknown feature type=Audio, name=, username=Audio stereo codec with Headphone Amp (CS42L51-CNZ), n=1
+2022-06-25 23:22:49,384 [WARN] DbBoardsPdsc:256 - Board STM32H7B3I-DK: unknown feature type=WIFI, name=, username=WIFI 802.11 b/g/n, n=1
+2022-06-25 23:22:49,385 [WARN] DbBoardsPdsc:256 - Board STM32H7B3I-EVAL: unknown feature type=Audio, name=, username=Multi-Channel Audio Codec (CS42L51-CNZ), n=1
+2022-06-25 23:22:49,385 [WARN] DbBoardsPdsc:256 - Board STM32H7B3I-EVAL: unknown feature type=Meter, name=, username=Power-metering and Temperature-monitoring with sigma-delta modulators, n=1
+2022-06-25 23:22:49,385 [WARN] DbBoardsPdsc:256 - Board STM32H7B3I-EVAL: unknown feature type=WIFI, name=, username=WIFI 802.11 a/b/g/n, n=1
+2022-06-25 23:22:49,385 [WARN] DbBoardsPdsc:256 - Board STM32H7B3I-EVAL: unknown feature type=Motor, name=, username=Motor Control, n=1
+2022-06-25 23:22:49,386 [WARN] DbBoardsPdsc:256 - Board STEVAL-IDP005V1: unknown feature type=PWRSock, name=Power Socket, username=IO-Link 4-position M12 A-coded connector, n=1
+2022-06-25 23:22:49,386 [WARN] DbBoardsPdsc:256 - Board STEVAL-IDP005V2: unknown feature type=PWRSock, name=Power Socket, username=IO-Link 4-position M12 A-coded connector, n=1
+2022-06-25 23:22:49,412 [INFO] DbBoardsJson:79 - JSON generation date=Tue Nov 16 21:47:54 IST 2021 (1637079474)
+2022-06-25 23:22:49,419 [INFO] DbBoards:120 - Found 165 boards (140 are supported by CubeMX)
+2022-06-25 23:22:49,421 [INFO] DbBoardsDocs:118 - JSON generation date=Tue Nov 16 21:47:54 IST 2021 (1637079474)
+2022-06-25 23:22:49,425 [INFO] DbBoardsDocs:57 - Found 209 boards documents
+2022-06-25 23:22:49,425 [WARN] DbBoards:130 - board NUCLEO-H743ZI has no document id list !
+2022-06-25 23:22:49,427 [WARN] DbBoards:130 - board P-NUCLEO-WB55-Nucleo has no document id list !
+2022-06-25 23:22:49,427 [WARN] DbBoards:130 - board P-NUCLEO-WB55-USBDongle has no document id list !
+2022-06-25 23:22:49,427 [WARN] DbBoards:130 - board STM32F401C-DISCO has no document id list !
+2022-06-25 23:22:49,427 [WARN] DbBoards:130 - board STM32F769I-DISC1 has no document id list !
+2022-06-25 23:22:49,428 [WARN] DbBoards:130 - board STM32L-DISCOVERY has no document id list !
+2022-06-25 23:22:49,428 [WARN] DbBoards:130 - board STM32H747I-DISC1 has no document id list !
+2022-06-25 23:22:49,429 [WARN] DbBoards:130 - board STM32439I-EVAL2 has no document id list !
+2022-06-25 23:22:49,429 [WARN] DbBoards:130 - board STM32H743I-EVAL2 has no document id list !
+2022-06-25 23:22:49,430 [WARN] DbBoards:130 - board STM32H753I-EVAL2 has no document id list !
+2022-06-25 23:22:49,430 [WARN] DbBoards:130 - board STM32G474E-EVAL1 has no document id list !
+2022-06-25 23:22:49,430 [WARN] DbBoards:130 - board STEVAL-BFA001V1B has no document id list !
+2022-06-25 23:22:49,430 [WARN] DbBoards:130 - board STEVAL-BFA001V2B has no document id list !
+2022-06-25 23:22:49,430 [WARN] DbBoards:130 - board STEVAL-MKSBOX1V1 has no document id list !
+2022-06-25 23:22:49,431 [WARN] DbBoards:130 - board STEVAL-STWINKT1 has no document id list !
+2022-06-25 23:22:49,431 [WARN] DbBoards:130 - board STEVAL-IDP005V1 has no document id list !
+2022-06-25 23:22:49,431 [WARN] DbBoards:130 - board STEVAL-IDP005V2 has no document id list !
+2022-06-25 23:22:49,432 [WARN] DbBoards:130 - board STEVAL-STWINKT1B has no document id list !
+2022-06-25 23:22:49,580 [ERROR] DbBoards:192 - Image file not found for board NUCLEO-F413ZH: G:\stm32cubeide_main\stm32\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/plugins/mcufinder/images/boards/nucleo-f413zh_small.jpg
+2022-06-25 23:22:49,632 [ERROR] DbBoards:192 - Image file not found for board NUCLEO-L552ZE-Q: G:\stm32cubeide_main\stm32\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/plugins/mcufinder/images/boards/nucleo_l552ze_q_small.jpg
+2022-06-25 23:22:49,882 [ERROR] DbBoards:192 - Image file not found for board P-NUCLEO-WB55: G:\stm32cubeide_main\stm32\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/plugins/mcufinder/images/boards/p-nucleo-wb55_small.jpg
+2022-06-25 23:22:50,733 [ERROR] DbBoards:192 - Image file not found for board STM32H7B3I-EVAL: G:\stm32cubeide_main\stm32\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/plugins/mcufinder/images/boards/stm32h7b3ieval_small.jpg
+2022-06-25 23:22:51,010 [ERROR] DbBoards:192 - Image file not found for board B-L462E-CELL1: G:\stm32cubeide_main\stm32\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/plugins/mcufinder/images/boards/B-L462E-CELL1_small.jpg
+2022-06-25 23:22:51,013 [ERROR] DbBoards:192 - Image file not found for board NUCLEO-WL55JC: G:\stm32cubeide_main\stm32\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/plugins/mcufinder/images/boards/nucleo-wl55jc-small.jpg
+2022-06-25 23:22:51,013 [ERROR] DbBoards:192 - Image file not found for board STM32H735G-DK: G:\stm32cubeide_main\stm32\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/plugins/mcufinder/images/boards/STM32H735G_DK_small.jpg
+2022-06-25 23:22:51,025 [ERROR] DbBoards:192 - Image file not found for board B-L4S5I-IOT01A: G:\stm32cubeide_main\stm32\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/plugins/mcufinder/images/boards/B-L4S5I-IOT01A_small.jpg
+2022-06-25 23:22:51,028 [ERROR] DbBoards:192 - Image file not found for board NUCLEO-WB55RG: G:\stm32cubeide_main\stm32\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/plugins/mcufinder/images/boards/nucleo-wb55rg_small.jpg
+2022-06-25 23:22:51,031 [ERROR] DbBoards:192 - Image file not found for board STM32G0C1E-EV: G:\stm32cubeide_main\stm32\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/plugins/mcufinder/images/boards/stm32g0c1e-eval_small.jpg
+2022-06-25 23:22:51,031 [ERROR] DbBoards:192 - Image file not found for board NUCLEO-WB15CC: G:\stm32cubeide_main\stm32\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/plugins/mcufinder/images/boards/nucleo-wb15cc_small.jpg
+2022-06-25 23:22:51,031 [ERROR] DbBoards:192 - Image file not found for board STM32WB5MM-DK: G:\stm32cubeide_main\stm32\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/plugins/mcufinder/images/boards/STM32WB5MM-DK_small.jpg
+2022-06-25 23:22:51,032 [ERROR] DbBoards:192 - Image file not found for board B-U585I-IOT02A: G:\stm32cubeide_main\stm32\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/plugins/mcufinder/images/boards/B-U585I-IOT02A_small.jpg
+2022-06-25 23:22:51,032 [ERROR] DbBoards:192 - Image file not found for board NUCLEO-U575ZI-Q: G:\stm32cubeide_main\stm32\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/plugins/mcufinder/images/boards/nucleo-u575zi-q_small.jpg
+2022-06-25 23:22:51,032 [ERROR] DbBoards:192 - Image file not found for board STM32U575I-EV: G:\stm32cubeide_main\stm32\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/plugins/mcufinder/images/boards/stm32u575i-ev_small.jpg
+2022-06-25 23:22:51,032 [ERROR] DbBoards:192 - Image file not found for board STEVAL-STWINKT1B: G:\stm32cubeide_main\stm32\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/plugins/mcufinder/images/boards/steval-stwinkt1b_small.jpg
+2022-06-25 23:22:51,033 [INFO] ApiDb:158 - Load user favorites file C:\Users\dines/.stm32cubeide/favorites.boards.txt: 0 item(s)
+2022-06-25 23:22:51,033 [INFO] ApiDb:163 - User favorites Boards=[]
+2022-06-25 23:22:51,033 [INFO] DbBoards:209 - Set 0 / 0 favorites Boards
+2022-06-25 23:22:51,034 [INFO] DbBoardsDocs:57 - Found 418 boards documents
+2022-06-25 23:22:51,035 [INFO] ApiDb:186 - Save user favorites file C:\Users\dines/.stm32cubeide/favorites.boards.txt: 0 item(s)
+2022-06-25 23:22:51,035 [INFO] ApiDb:191 - User favorites Boards=[]
+2022-06-25 23:22:51,037 [INFO] DbBoardsPdsc:92 - Found 21 items
+2022-06-25 23:22:51,038 [INFO] DbBoardsPdsc:92 - Found 9 items
+2022-06-25 23:22:51,040 [INFO] DbBoardsPdsc:92 - Found 27 items
+2022-06-25 23:22:51,040 [INFO] DbBoardsPdsc:92 - Found 1 items
+2022-06-25 23:22:51,043 [INFO] DbBoardsPdsc:92 - Found 40 items
+2022-06-25 23:22:51,046 [INFO] DbBoardsPdsc:92 - Found 39 items
+2022-06-25 23:22:51,047 [INFO] DbBoardsPdsc:92 - Found 2 items
+2022-06-25 23:22:51,048 [INFO] DbBoardsPdsc:92 - Found 4 items
+2022-06-25 23:22:51,049 [WARN] DbBoardsPdsc:256 - Board STM32H7B3I-DK: unknown feature type=Audio, name=, username=Audio stereo codec with Headphone Amp (CS42L51-CNZ), n=1
+2022-06-25 23:22:51,049 [WARN] DbBoardsPdsc:256 - Board STM32H7B3I-DK: unknown feature type=WIFI, name=, username=WIFI 802.11 b/g/n, n=1
+2022-06-25 23:22:51,050 [WARN] DbBoardsPdsc:256 - Board STM32H7B3I-EVAL: unknown feature type=Audio, name=, username=Multi-Channel Audio Codec (CS42L51-CNZ), n=1
+2022-06-25 23:22:51,050 [WARN] DbBoardsPdsc:256 - Board STM32H7B3I-EVAL: unknown feature type=Meter, name=, username=Power-metering and Temperature-monitoring with sigma-delta modulators, n=1
+2022-06-25 23:22:51,050 [WARN] DbBoardsPdsc:256 - Board STM32H7B3I-EVAL: unknown feature type=WIFI, name=, username=WIFI 802.11 a/b/g/n, n=1
+2022-06-25 23:22:51,050 [WARN] DbBoardsPdsc:256 - Board STM32H7B3I-EVAL: unknown feature type=Motor, name=, username=Motor Control, n=1
+2022-06-25 23:22:51,051 [WARN] DbBoardsPdsc:256 - Board STEVAL-IDP005V1: unknown feature type=PWRSock, name=Power Socket, username=IO-Link 4-position M12 A-coded connector, n=1
+2022-06-25 23:22:51,051 [WARN] DbBoardsPdsc:256 - Board STEVAL-IDP005V2: unknown feature type=PWRSock, name=Power Socket, username=IO-Link 4-position M12 A-coded connector, n=1
+2022-06-25 23:22:51,059 [INFO] DbBoardsJson:79 - JSON generation date=Tue Nov 16 21:47:54 IST 2021 (1637079474)
+2022-06-25 23:22:51,063 [INFO] DbBoards:120 - Found 165 boards (140 are supported by CubeMX)
+2022-06-25 23:22:51,063 [WARN] DbBoards:130 - board NUCLEO-H743ZI has no document id list !
+2022-06-25 23:22:51,064 [WARN] DbBoards:130 - board P-NUCLEO-WB55-Nucleo has no document id list !
+2022-06-25 23:22:51,064 [WARN] DbBoards:130 - board P-NUCLEO-WB55-USBDongle has no document id list !
+2022-06-25 23:22:51,064 [WARN] DbBoards:130 - board STM32F401C-DISCO has no document id list !
+2022-06-25 23:22:51,064 [WARN] DbBoards:130 - board STM32F769I-DISC1 has no document id list !
+2022-06-25 23:22:51,065 [WARN] DbBoards:130 - board STM32L-DISCOVERY has no document id list !
+2022-06-25 23:22:51,065 [WARN] DbBoards:130 - board STM32H747I-DISC1 has no document id list !
+2022-06-25 23:22:51,065 [WARN] DbBoards:130 - board STM32439I-EVAL2 has no document id list !
+2022-06-25 23:22:51,065 [WARN] DbBoards:130 - board STM32H743I-EVAL2 has no document id list !
+2022-06-25 23:22:51,065 [WARN] DbBoards:130 - board STM32H753I-EVAL2 has no document id list !
+2022-06-25 23:22:51,065 [WARN] DbBoards:130 - board STM32G474E-EVAL1 has no document id list !
+2022-06-25 23:22:51,065 [WARN] DbBoards:130 - board STEVAL-BFA001V1B has no document id list !
+2022-06-25 23:22:51,065 [WARN] DbBoards:130 - board STEVAL-BFA001V2B has no document id list !
+2022-06-25 23:22:51,065 [WARN] DbBoards:130 - board STEVAL-MKSBOX1V1 has no document id list !
+2022-06-25 23:22:51,066 [WARN] DbBoards:130 - board STEVAL-STWINKT1 has no document id list !
+2022-06-25 23:22:51,066 [WARN] DbBoards:130 - board STEVAL-IDP005V1 has no document id list !
+2022-06-25 23:22:51,066 [WARN] DbBoards:130 - board STEVAL-IDP005V2 has no document id list !
+2022-06-25 23:22:51,066 [WARN] DbBoards:130 - board STEVAL-STWINKT1B has no document id list !
+2022-06-25 23:22:51,088 [ERROR] DbBoards:192 - Image file not found for board NUCLEO-F413ZH: G:\stm32cubeide_main\stm32\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/plugins/mcufinder/images/boards/nucleo-f413zh_small.jpg
+2022-06-25 23:22:51,117 [ERROR] DbBoards:192 - Image file not found for board NUCLEO-L552ZE-Q: G:\stm32cubeide_main\stm32\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/plugins/mcufinder/images/boards/nucleo_l552ze_q_small.jpg
+2022-06-25 23:22:51,239 [ERROR] DbBoards:192 - Image file not found for board P-NUCLEO-WB55: G:\stm32cubeide_main\stm32\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/plugins/mcufinder/images/boards/p-nucleo-wb55_small.jpg
+2022-06-25 23:22:51,518 [ERROR] DbBoards:192 - Image file not found for board STM32H7B3I-EVAL: G:\stm32cubeide_main\stm32\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/plugins/mcufinder/images/boards/stm32h7b3ieval_small.jpg
+2022-06-25 23:22:51,627 [ERROR] DbBoards:192 - Image file not found for board B-L462E-CELL1: G:\stm32cubeide_main\stm32\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/plugins/mcufinder/images/boards/B-L462E-CELL1_small.jpg
+2022-06-25 23:22:51,629 [ERROR] DbBoards:192 - Image file not found for board NUCLEO-WL55JC: G:\stm32cubeide_main\stm32\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/plugins/mcufinder/images/boards/nucleo-wl55jc-small.jpg
+2022-06-25 23:22:51,630 [ERROR] DbBoards:192 - Image file not found for board STM32H735G-DK: G:\stm32cubeide_main\stm32\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/plugins/mcufinder/images/boards/STM32H735G_DK_small.jpg
+2022-06-25 23:22:51,641 [ERROR] DbBoards:192 - Image file not found for board B-L4S5I-IOT01A: G:\stm32cubeide_main\stm32\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/plugins/mcufinder/images/boards/B-L4S5I-IOT01A_small.jpg
+2022-06-25 23:22:51,644 [ERROR] DbBoards:192 - Image file not found for board NUCLEO-WB55RG: G:\stm32cubeide_main\stm32\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/plugins/mcufinder/images/boards/nucleo-wb55rg_small.jpg
+2022-06-25 23:22:51,647 [ERROR] DbBoards:192 - Image file not found for board STM32G0C1E-EV: G:\stm32cubeide_main\stm32\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/plugins/mcufinder/images/boards/stm32g0c1e-eval_small.jpg
+2022-06-25 23:22:51,648 [ERROR] DbBoards:192 - Image file not found for board NUCLEO-WB15CC: G:\stm32cubeide_main\stm32\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/plugins/mcufinder/images/boards/nucleo-wb15cc_small.jpg
+2022-06-25 23:22:51,648 [ERROR] DbBoards:192 - Image file not found for board STM32WB5MM-DK: G:\stm32cubeide_main\stm32\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/plugins/mcufinder/images/boards/STM32WB5MM-DK_small.jpg
+2022-06-25 23:22:51,648 [ERROR] DbBoards:192 - Image file not found for board B-U585I-IOT02A: G:\stm32cubeide_main\stm32\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/plugins/mcufinder/images/boards/B-U585I-IOT02A_small.jpg
+2022-06-25 23:22:51,648 [ERROR] DbBoards:192 - Image file not found for board NUCLEO-U575ZI-Q: G:\stm32cubeide_main\stm32\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/plugins/mcufinder/images/boards/nucleo-u575zi-q_small.jpg
+2022-06-25 23:22:51,648 [ERROR] DbBoards:192 - Image file not found for board STM32U575I-EV: G:\stm32cubeide_main\stm32\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/plugins/mcufinder/images/boards/stm32u575i-ev_small.jpg
+2022-06-25 23:22:51,648 [ERROR] DbBoards:192 - Image file not found for board STEVAL-STWINKT1B: G:\stm32cubeide_main\stm32\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/plugins/mcufinder/images/boards/steval-stwinkt1b_small.jpg
+2022-06-25 23:22:51,648 [INFO] ApiDb:158 - Load user favorites file C:\Users\dines/.stm32cubeide/favorites.boards.txt: 0 item(s)
+2022-06-25 23:22:51,648 [INFO] ApiDb:163 - User favorites Boards=[]
+2022-06-25 23:22:51,648 [INFO] DbBoards:209 - Set 0 / 0 favorites Boards
+2022-06-25 23:22:51,761 [INFO] LoadUrlFilesThread:161 - End of LoadServerUrlFiles without Thread
+2022-06-25 23:22:51,762 [INFO] McuFilterPanel:282 - Update 0 favorites MCUs
+2022-06-25 23:22:51,930 [INFO] LoadUrlFilesThread:161 - End of LoadServerUrlFiles without Thread
+2022-06-25 23:22:51,930 [INFO] BoardDetailPanel:179 - Set advertising image to C:/Users/dines/STM32Cube/Repository/\en.Prom_NBSTM32U50921.jpg
+2022-06-25 23:22:51,953 [INFO] BoardFilterPanel:211 - Update 0 favorites Boards
+2022-06-25 23:22:52,149 [INFO] CrossSelectorPresenter:1319 - Cross Selector saved comparison directory: C:\Users\dines\.stmcufinder\plugins\mcufinder\mcu\cs_comparisons_mx
+2022-06-25 23:23:51,914 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.24.2
+2022-06-25 23:23:51,915 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.24.1
+2022-06-25 23:23:51,915 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.24.0
+2022-07-04 11:21:03,432 [INFO] Activator:176 - 
+
+
+2022-07-04 11:21:03,434 [INFO] Activator:177 - !SESSION log4j initialized
+2022-07-04 13:56:46,173 [INFO] Activator:176 - 
+
+
+2022-07-04 13:56:46,177 [INFO] Activator:177 - !SESSION log4j initialized
+2022-07-04 13:57:30,838 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://download.eclipse.org:443: The target server failed to respond
+2022-07-04 13:57:30,842 [INFO] RetryExec:113 - Retrying request to {s}->https://download.eclipse.org:443
+2022-07-04 13:57:31,986 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://archive.eclipse.org:443: The target server failed to respond
+2022-07-04 13:57:31,987 [INFO] RetryExec:113 - Retrying request to {s}->https://archive.eclipse.org:443
+2022-07-04 13:57:33,115 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://download.eclipse.org:443: The target server failed to respond
+2022-07-04 13:57:33,116 [INFO] RetryExec:113 - Retrying request to {s}->https://download.eclipse.org:443
+2022-07-04 14:30:49,081 [INFO] Activator:176 - 
+
+
+2022-07-04 14:30:49,084 [INFO] Activator:177 - !SESSION log4j initialized
+2022-07-04 14:31:21,842 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://download.eclipse.org:443: The target server failed to respond
+2022-07-04 14:31:21,844 [INFO] RetryExec:113 - Retrying request to {s}->https://download.eclipse.org:443
+2022-07-04 14:31:22,943 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://archive.eclipse.org:443: The target server failed to respond
+2022-07-04 14:31:22,943 [INFO] RetryExec:113 - Retrying request to {s}->https://archive.eclipse.org:443
+2022-07-04 14:31:24,063 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://download.eclipse.org:443: The target server failed to respond
+2022-07-04 14:31:24,063 [INFO] RetryExec:113 - Retrying request to {s}->https://download.eclipse.org:443
+2022-07-04 14:31:56,956 [INFO] Activator:176 - 
+
+
+2022-07-04 14:31:56,959 [INFO] Activator:177 - !SESSION log4j initialized
+2023-05-21 21:57:51,307 [INFO] Activator:176 - 
+
+
+2023-05-21 21:57:51,348 [INFO] Activator:177 - !SESSION log4j initialized
+2023-05-21 21:58:22,930 [INFO] RetryExec:97 - I/O exception (java.net.SocketException) caught when processing request to {}->http://sw-center.st.com:80: Socket Closed
+2023-05-21 21:58:22,933 [INFO] RetryExec:113 - Retrying request to {}->http://sw-center.st.com:80
+2023-06-12 21:55:54,006 [INFO] Activator:176 - 
+
+
+2023-06-12 21:55:54,040 [INFO] Activator:177 - !SESSION log4j initialized
+2023-06-12 21:56:42,803 [INFO] RetryExec:97 - I/O exception (java.net.SocketException) caught when processing request to {}->http://sw-center.st.com:80: Socket Closed
+2023-06-12 21:56:42,806 [INFO] RetryExec:113 - Retrying request to {}->http://sw-center.st.com:80
+2023-06-18 18:47:15,838 [INFO] Activator:176 - 
+
+
+2023-06-18 18:47:15,849 [INFO] Activator:177 - !SESSION log4j initialized
+2023-06-18 18:48:04,084 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://download.eclipse.org:443: The target server failed to respond
+2023-06-18 18:48:04,087 [INFO] RetryExec:113 - Retrying request to {s}->https://download.eclipse.org:443
+2023-06-18 18:48:05,135 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://archive.eclipse.org:443: The target server failed to respond
+2023-06-18 18:48:05,135 [INFO] RetryExec:113 - Retrying request to {s}->https://archive.eclipse.org:443
+2023-06-18 18:48:06,200 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://download.eclipse.org:443: The target server failed to respond
+2023-06-18 18:48:06,201 [INFO] RetryExec:113 - Retrying request to {s}->https://download.eclipse.org:443
+2023-07-10 08:08:19,624 [INFO] Activator:176 - 
+
+
+2023-07-10 08:08:19,850 [INFO] Activator:177 - !SESSION log4j initialized
+2023-07-10 08:09:46,050 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://download.eclipse.org:443: The target server failed to respond
+2023-07-10 08:09:46,059 [INFO] RetryExec:113 - Retrying request to {s}->https://download.eclipse.org:443
+2023-07-10 08:09:46,930 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://archive.eclipse.org:443: The target server failed to respond
+2023-07-10 08:09:46,931 [INFO] RetryExec:113 - Retrying request to {s}->https://archive.eclipse.org:443
+2023-07-10 08:09:47,931 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://download.eclipse.org:443: The target server failed to respond
+2023-07-10 08:09:47,931 [INFO] RetryExec:113 - Retrying request to {s}->https://download.eclipse.org:443
+2023-07-11 22:34:48,061 [INFO] Activator:176 - 
+
+
+2023-07-11 22:34:48,116 [INFO] Activator:177 - !SESSION log4j initialized
+2023-07-11 22:35:22,006 [INFO] RetryExec:97 - I/O exception (java.net.SocketException) caught when processing request to {}->http://sw-center.st.com:80: Socket Closed
+2023-07-11 22:35:22,011 [INFO] RetryExec:113 - Retrying request to {}->http://sw-center.st.com:80
+2023-07-14 08:36:54,119 [INFO] Activator:176 - 
+
+
+2023-07-14 08:36:54,216 [INFO] Activator:177 - !SESSION log4j initialized
+2023-07-14 08:37:43,672 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://download.eclipse.org:443: The target server failed to respond
+2023-07-14 08:37:43,675 [INFO] RetryExec:113 - Retrying request to {s}->https://download.eclipse.org:443
+2023-07-14 08:37:44,977 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://archive.eclipse.org:443: The target server failed to respond
+2023-07-14 08:37:44,977 [INFO] RetryExec:113 - Retrying request to {s}->https://archive.eclipse.org:443
+2023-07-14 08:37:46,413 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://download.eclipse.org:443: The target server failed to respond
+2023-07-14 08:37:46,413 [INFO] RetryExec:113 - Retrying request to {s}->https://download.eclipse.org:443
+2023-07-15 17:21:21,093 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-07-15 17:21:21,643 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-07-15 17:21:21,819 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-07-15 17:21:21,819 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-07-15 17:21:21,888 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-07-15 17:21:21,890 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-07-15 17:21:22,643 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-07-15 17:21:22,644 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-07-15 17:21:23,669 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-07-15 17:21:23,670 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-07-15 17:21:24,676 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-07-15 17:21:24,677 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-07-16 10:45:38,915 [INFO] Activator:176 - 
+
+
+2023-07-16 10:45:38,972 [INFO] Activator:177 - !SESSION log4j initialized
+2023-07-16 10:47:10,853 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://download.eclipse.org:443: The target server failed to respond
+2023-07-16 10:47:10,857 [INFO] RetryExec:113 - Retrying request to {s}->https://download.eclipse.org:443
+2023-07-16 10:47:11,884 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://archive.eclipse.org:443: The target server failed to respond
+2023-07-16 10:47:11,884 [INFO] RetryExec:113 - Retrying request to {s}->https://archive.eclipse.org:443
+2023-07-16 10:47:13,008 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://download.eclipse.org:443: The target server failed to respond
+2023-07-16 10:47:13,009 [INFO] RetryExec:113 - Retrying request to {s}->https://download.eclipse.org:443
+2023-07-16 18:43:30,833 [INFO] Activator:176 - 
+
+
+2023-07-16 18:43:30,922 [INFO] Activator:177 - !SESSION log4j initialized
+2023-07-16 18:45:36,924 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://download.eclipse.org:443: The target server failed to respond
+2023-07-16 18:45:36,927 [INFO] RetryExec:113 - Retrying request to {s}->https://download.eclipse.org:443
+2023-07-16 18:45:37,967 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://archive.eclipse.org:443: The target server failed to respond
+2023-07-16 18:45:37,967 [INFO] RetryExec:113 - Retrying request to {s}->https://archive.eclipse.org:443
+2023-07-16 18:45:39,234 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://download.eclipse.org:443: The target server failed to respond
+2023-07-16 18:45:39,235 [INFO] RetryExec:113 - Retrying request to {s}->https://download.eclipse.org:443
+2023-07-16 19:46:19,946 [INFO] Activator:176 - 
+
+
+2023-07-16 19:46:19,952 [INFO] Activator:177 - !SESSION log4j initialized
+2023-07-16 19:48:33,616 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://download.eclipse.org:443: The target server failed to respond
+2023-07-16 19:48:33,621 [INFO] RetryExec:113 - Retrying request to {s}->https://download.eclipse.org:443
+2023-07-16 19:48:34,667 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://archive.eclipse.org:443: The target server failed to respond
+2023-07-16 19:48:34,667 [INFO] RetryExec:113 - Retrying request to {s}->https://archive.eclipse.org:443
+2023-07-16 19:48:35,978 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://download.eclipse.org:443: The target server failed to respond
+2023-07-16 19:48:35,979 [INFO] RetryExec:113 - Retrying request to {s}->https://download.eclipse.org:443
+2023-07-17 21:23:49,963 [INFO] Activator:176 - 
+
+
+2023-07-17 21:23:50,048 [INFO] Activator:177 - !SESSION log4j initialized
+2023-07-17 21:26:09,577 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://download.eclipse.org:443: The target server failed to respond
+2023-07-17 21:26:09,581 [INFO] RetryExec:113 - Retrying request to {s}->https://download.eclipse.org:443
+2023-07-17 21:26:10,822 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://archive.eclipse.org:443: The target server failed to respond
+2023-07-17 21:26:10,822 [INFO] RetryExec:113 - Retrying request to {s}->https://archive.eclipse.org:443
+2023-07-17 21:26:11,946 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://download.eclipse.org:443: The target server failed to respond
+2023-07-17 21:26:11,946 [INFO] RetryExec:113 - Retrying request to {s}->https://download.eclipse.org:443
+2023-07-18 21:18:47,747 [INFO] Activator:176 - 
+
+
+2023-07-18 21:18:47,822 [INFO] Activator:177 - !SESSION log4j initialized
+2023-07-18 21:21:50,730 [INFO] Activator:176 - 
+
+
+2023-07-18 21:21:50,734 [INFO] Activator:177 - !SESSION log4j initialized
+2023-07-18 21:23:23,945 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://download.eclipse.org:443: The target server failed to respond
+2023-07-18 21:23:23,948 [INFO] RetryExec:113 - Retrying request to {s}->https://download.eclipse.org:443
+2023-07-18 21:23:24,990 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://archive.eclipse.org:443: The target server failed to respond
+2023-07-18 21:23:24,990 [INFO] RetryExec:113 - Retrying request to {s}->https://archive.eclipse.org:443
+2023-07-18 21:23:26,220 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://download.eclipse.org:443: The target server failed to respond
+2023-07-18 21:23:26,220 [INFO] RetryExec:113 - Retrying request to {s}->https://download.eclipse.org:443
+2023-07-19 22:36:56,809 [INFO] Activator:176 - 
+
+
+2023-07-19 22:36:56,886 [INFO] Activator:177 - !SESSION log4j initialized
+2023-07-19 22:39:02,694 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://download.eclipse.org:443: The target server failed to respond
+2023-07-19 22:39:02,698 [INFO] RetryExec:113 - Retrying request to {s}->https://download.eclipse.org:443
+2023-07-19 22:39:03,743 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://archive.eclipse.org:443: The target server failed to respond
+2023-07-19 22:39:03,743 [INFO] RetryExec:113 - Retrying request to {s}->https://archive.eclipse.org:443
+2023-07-19 22:39:04,958 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://download.eclipse.org:443: The target server failed to respond
+2023-07-19 22:39:04,959 [INFO] RetryExec:113 - Retrying request to {s}->https://download.eclipse.org:443
+2023-07-20 08:29:12,302 [INFO] Activator:176 - 
+
+
+2023-07-20 08:29:12,404 [INFO] Activator:177 - !SESSION log4j initialized
+2023-07-20 08:31:09,275 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://download.eclipse.org:443: The target server failed to respond
+2023-07-20 08:31:09,280 [INFO] RetryExec:113 - Retrying request to {s}->https://download.eclipse.org:443
+2023-07-20 08:31:10,414 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://archive.eclipse.org:443: The target server failed to respond
+2023-07-20 08:31:10,414 [INFO] RetryExec:113 - Retrying request to {s}->https://archive.eclipse.org:443
+2023-07-20 08:31:11,669 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://download.eclipse.org:443: The target server failed to respond
+2023-07-20 08:31:11,670 [INFO] RetryExec:113 - Retrying request to {s}->https://download.eclipse.org:443
+2023-07-22 23:00:04,936 [INFO] Activator:176 - 
+
+
+2023-07-22 23:00:04,954 [INFO] Activator:177 - !SESSION log4j initialized
+2023-07-22 23:02:08,361 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://download.eclipse.org:443: The target server failed to respond
+2023-07-22 23:02:08,365 [INFO] RetryExec:113 - Retrying request to {s}->https://download.eclipse.org:443
+2023-07-22 23:02:09,401 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://archive.eclipse.org:443: The target server failed to respond
+2023-07-22 23:02:09,402 [INFO] RetryExec:113 - Retrying request to {s}->https://archive.eclipse.org:443
+2023-07-22 23:02:10,501 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://download.eclipse.org:443: The target server failed to respond
+2023-07-22 23:02:10,502 [INFO] RetryExec:113 - Retrying request to {s}->https://download.eclipse.org:443
+2023-07-23 10:16:37,878 [INFO] Activator:176 - 
+
+
+2023-07-23 10:16:37,923 [INFO] Activator:177 - !SESSION log4j initialized
+2023-07-23 10:17:55,370 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://download.eclipse.org:443: The target server failed to respond
+2023-07-23 10:17:55,376 [INFO] RetryExec:113 - Retrying request to {s}->https://download.eclipse.org:443
+2023-07-23 10:17:56,403 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://archive.eclipse.org:443: The target server failed to respond
+2023-07-23 10:17:56,404 [INFO] RetryExec:113 - Retrying request to {s}->https://archive.eclipse.org:443
+2023-07-23 10:17:57,527 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://download.eclipse.org:443: The target server failed to respond
+2023-07-23 10:17:57,528 [INFO] RetryExec:113 - Retrying request to {s}->https://download.eclipse.org:443
+2023-07-23 20:27:07,981 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Compilation Unit @ b
+2023-07-23 20:27:07,982 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Length: 523
+2023-07-23 20:27:07,983 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Version: 4
+2023-07-23 20:27:07,984 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Abbreviation: 0
+2023-07-23 20:27:07,985 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Address size: 4
+2023-07-23 20:27:07,985 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Offset size: 4
+2023-07-23 20:27:07,987 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 	Abrev Entry: 1 11 1
+2023-07-23 20:27:07,989 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 25 8
+2023-07-23 20:27:07,990 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 13 b
+2023-07-23 20:27:07,991 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3 8
+2023-07-23 20:27:07,992 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 1b 8
+2023-07-23 20:27:07,994 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 11 1
+2023-07-23 20:27:07,995 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 12 6
+2023-07-23 20:27:07,997 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 10 17
+2023-07-23 20:27:07,998 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 2119 17
+2023-07-23 20:27:07,999 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 0 0
+2023-07-23 20:27:08,000 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 	Abrev Entry: 2 24 0
+2023-07-23 20:27:08,001 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 b b
+2023-07-23 20:27:08,003 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3e b
+2023-07-23 20:27:08,004 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3 8
+2023-07-23 20:27:08,005 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 0 0
+2023-07-23 20:27:08,006 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 	Abrev Entry: 3 13 1
+2023-07-23 20:27:08,007 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3 8
+2023-07-23 20:27:08,008 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 b b
+2023-07-23 20:27:08,010 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3a b
+2023-07-23 20:27:08,011 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3b b
+2023-07-23 20:27:08,012 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 1 13
+2023-07-23 20:27:08,013 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 0 0
+2023-07-23 20:27:08,014 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 	Abrev Entry: 4 d 0
+2023-07-23 20:27:08,016 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3 8
+2023-07-23 20:27:08,017 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3a b
+2023-07-23 20:27:08,018 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3b b
+2023-07-23 20:27:08,019 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 49 13
+2023-07-23 20:27:08,020 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 38 b
+2023-07-23 20:27:08,021 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 0 0
+2023-07-23 20:27:08,023 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 	Abrev Entry: 5 f 0
+2023-07-23 20:27:08,024 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 b b
+2023-07-23 20:27:08,025 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 49 13
+2023-07-23 20:27:08,026 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 0 0
+2023-07-23 20:27:08,028 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 	Abrev Entry: 6 16 0
+2023-07-23 20:27:08,029 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3 8
+2023-07-23 20:27:08,030 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3a b
+2023-07-23 20:27:08,032 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3b b
+2023-07-23 20:27:08,034 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 49 13
+2023-07-23 20:27:08,035 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 0 0
+2023-07-23 20:27:08,038 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 	Abrev Entry: 7 1 1
+2023-07-23 20:27:08,039 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 49 13
+2023-07-23 20:27:08,040 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 1 13
+2023-07-23 20:27:08,041 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 0 0
+2023-07-23 20:27:08,042 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 	Abrev Entry: 8 21 0
+2023-07-23 20:27:08,043 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 0 0
+2023-07-23 20:27:08,045 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 	Abrev Entry: 9 34 0
+2023-07-23 20:27:08,045 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3 8
+2023-07-23 20:27:08,046 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3a b
+2023-07-23 20:27:08,047 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3b b
+2023-07-23 20:27:08,048 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 49 13
+2023-07-23 20:27:08,049 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3f 19
+2023-07-23 20:27:08,051 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3c 19
+2023-07-23 20:27:08,052 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 0 0
+2023-07-23 20:27:08,054 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 	Abrev Entry: 10 2e 1
+2023-07-23 20:27:08,055 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3f 19
+2023-07-23 20:27:08,056 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3 8
+2023-07-23 20:27:08,057 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3a b
+2023-07-23 20:27:08,058 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3b b
+2023-07-23 20:27:08,059 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 49 13
+2023-07-23 20:27:08,060 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 11 1
+2023-07-23 20:27:08,061 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 12 6
+2023-07-23 20:27:08,062 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 40 18
+2023-07-23 20:27:08,064 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 2116 19
+2023-07-23 20:27:08,065 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 1 13
+2023-07-23 20:27:08,066 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 0 0
+2023-07-23 20:27:08,069 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 	Abrev Entry: 11 34 0
+2023-07-23 20:27:08,070 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3 8
+2023-07-23 20:27:08,071 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3a b
+2023-07-23 20:27:08,072 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3b b
+2023-07-23 20:27:08,073 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 49 13
+2023-07-23 20:27:08,074 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 2 18
+2023-07-23 20:27:08,075 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 0 0
+2023-07-23 20:27:08,078 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Compilation Unit @ 21a
+2023-07-23 20:27:08,079 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Length: 163
+2023-07-23 20:27:08,080 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Version: 2
+2023-07-23 20:27:08,081 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Abbreviation: 158
+2023-07-23 20:27:08,083 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Address size: 4
+2023-07-23 20:27:08,084 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Offset size: 4
+2023-07-23 20:27:08,087 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 	Abrev Entry: 1 11 0
+2023-07-23 20:27:08,088 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 10 6
+2023-07-23 20:27:08,089 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 11 1
+2023-07-23 20:27:08,090 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 12 1
+2023-07-23 20:27:08,090 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3 8
+2023-07-23 20:27:08,091 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 1b 8
+2023-07-23 20:27:08,093 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 25 8
+2023-07-23 20:27:08,094 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 13 5
+2023-07-23 20:27:08,094 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 0 0
+2023-07-23 20:27:08,096 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Compilation Unit @ 2c1
+2023-07-23 20:27:08,097 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Length: 7252
+2023-07-23 20:27:08,099 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Version: 4
+2023-07-23 20:27:08,100 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Abbreviation: 178
+2023-07-23 20:27:08,101 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Address size: 4
+2023-07-23 20:27:08,102 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Offset size: 4
+2023-07-23 20:27:08,104 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 	Abrev Entry: 1 11 1
+2023-07-23 20:27:08,105 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 25 8
+2023-07-23 20:27:08,106 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 13 b
+2023-07-23 20:27:08,107 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3 8
+2023-07-23 20:27:08,108 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 1b 8
+2023-07-23 20:27:08,109 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 10 17
+2023-07-23 20:27:08,110 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 0 0
+2023-07-23 20:27:08,111 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 	Abrev Entry: 2 24 0
+2023-07-23 20:27:08,112 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 b b
+2023-07-23 20:27:08,113 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3e b
+2023-07-23 20:27:08,114 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3 8
+2023-07-23 20:27:08,115 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 0 0
+2023-07-23 20:27:08,116 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 	Abrev Entry: 3 26 0
+2023-07-23 20:27:08,117 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 49 13
+2023-07-23 20:27:08,118 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 0 0
+2023-07-23 20:27:08,120 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 	Abrev Entry: 4 13 1
+2023-07-23 20:27:08,120 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3 8
+2023-07-23 20:27:08,121 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 b b
+2023-07-23 20:27:08,122 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3a b
+2023-07-23 20:27:08,123 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3b b
+2023-07-23 20:27:08,124 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 1 13
+2023-07-23 20:27:08,125 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 0 0
+2023-07-23 20:27:08,127 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 	Abrev Entry: 5 d 0
+2023-07-23 20:27:08,128 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3 8
+2023-07-23 20:27:08,129 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3a b
+2023-07-23 20:27:08,130 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3b b
+2023-07-23 20:27:08,131 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 49 13
+2023-07-23 20:27:08,131 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 38 b
+2023-07-23 20:27:08,132 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 0 0
+2023-07-23 20:27:08,134 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 	Abrev Entry: 6 f 0
+2023-07-23 20:27:08,135 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 b b
+2023-07-23 20:27:08,136 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 49 13
+2023-07-23 20:27:08,136 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 0 0
+2023-07-23 20:27:08,138 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 	Abrev Entry: 7 16 0
+2023-07-23 20:27:08,138 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3 8
+2023-07-23 20:27:08,139 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3a b
+2023-07-23 20:27:08,140 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3b b
+2023-07-23 20:27:08,141 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 49 13
+2023-07-23 20:27:08,142 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 0 0
+2023-07-23 20:27:08,143 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 	Abrev Entry: 8 1 1
+2023-07-23 20:27:08,144 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 49 13
+2023-07-23 20:27:08,145 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 1 13
+2023-07-23 20:27:08,146 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 0 0
+2023-07-23 20:27:08,148 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 	Abrev Entry: 9 21 0
+2023-07-23 20:27:08,148 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 0 0
+2023-07-23 20:27:08,150 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 	Abrev Entry: 10 34 0
+2023-07-23 20:27:08,151 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3 8
+2023-07-23 20:27:08,152 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3a b
+2023-07-23 20:27:08,152 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3b b
+2023-07-23 20:27:08,153 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 49 13
+2023-07-23 20:27:08,154 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3f 19
+2023-07-23 20:27:08,155 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3c 19
+2023-07-23 20:27:08,156 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 0 0
+2023-07-23 20:27:08,157 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 	Abrev Entry: 11 34 0
+2023-07-23 20:27:08,158 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3 8
+2023-07-23 20:27:08,159 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3a b
+2023-07-23 20:27:08,160 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3b 5
+2023-07-23 20:27:08,161 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 49 13
+2023-07-23 20:27:08,162 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3f 19
+2023-07-23 20:27:08,163 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3c 19
+2023-07-23 20:27:08,164 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 0 0
+2023-07-23 20:27:08,165 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 	Abrev Entry: 12 21 0
+2023-07-23 20:27:08,166 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 49 13
+2023-07-23 20:27:08,167 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 2f b
+2023-07-23 20:27:08,168 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 0 0
+2023-07-23 20:27:08,169 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 	Abrev Entry: 13 15 1
+2023-07-23 20:27:08,170 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 27 19
+2023-07-23 20:27:08,171 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 49 13
+2023-07-23 20:27:08,172 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 1 13
+2023-07-23 20:27:08,173 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 0 0
+2023-07-23 20:27:08,175 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 	Abrev Entry: 14 5 0
+2023-07-23 20:27:08,176 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 49 13
+2023-07-23 20:27:08,176 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 0 0
+2023-07-23 20:27:08,178 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 	Abrev Entry: 15 26 0
+2023-07-23 20:27:08,179 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 0 0
+2023-07-23 20:27:08,180 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 	Abrev Entry: 16 4 1
+2023-07-23 20:27:08,181 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3 8
+2023-07-23 20:27:08,182 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 b b
+2023-07-23 20:27:08,183 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 49 13
+2023-07-23 20:27:08,184 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3a b
+2023-07-23 20:27:08,185 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3b b
+2023-07-23 20:27:08,185 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 1 13
+2023-07-23 20:27:08,186 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 0 0
+2023-07-23 20:27:08,187 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 	Abrev Entry: 17 28 0
+2023-07-23 20:27:08,188 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3 8
+2023-07-23 20:27:08,190 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 1c b
+2023-07-23 20:27:08,190 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 0 0
+2023-07-23 20:27:08,192 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 	Abrev Entry: 18 13 1
+2023-07-23 20:27:08,193 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3 8
+2023-07-23 20:27:08,193 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 b 5
+2023-07-23 20:27:08,194 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3a b
+2023-07-23 20:27:08,195 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3b b
+2023-07-23 20:27:08,196 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 1 13
+2023-07-23 20:27:08,197 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 0 0
+2023-07-23 20:27:08,198 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 	Abrev Entry: 19 d 0
+2023-07-23 20:27:08,199 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3 8
+2023-07-23 20:27:08,200 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3a b
+2023-07-23 20:27:08,201 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3b 5
+2023-07-23 20:27:08,202 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 49 13
+2023-07-23 20:27:08,203 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 38 b
+2023-07-23 20:27:08,205 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 0 0
+2023-07-23 20:27:08,206 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 	Abrev Entry: 20 d 0
+2023-07-23 20:27:08,207 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3 8
+2023-07-23 20:27:08,207 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3a b
+2023-07-23 20:27:08,208 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3b 5
+2023-07-23 20:27:08,209 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 49 13
+2023-07-23 20:27:08,210 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 38 5
+2023-07-23 20:27:08,211 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 0 0
+2023-07-23 20:27:08,212 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 	Abrev Entry: 21 4 1
+2023-07-23 20:27:08,213 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3 8
+2023-07-23 20:27:08,214 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 b b
+2023-07-23 20:27:08,215 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 49 13
+2023-07-23 20:27:08,216 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3a b
+2023-07-23 20:27:08,217 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3b 5
+2023-07-23 20:27:08,218 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 1 13
+2023-07-23 20:27:08,219 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 0 0
+2023-07-23 20:27:08,220 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 	Abrev Entry: 22 17 0
+2023-07-23 20:27:08,221 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3 8
+2023-07-23 20:27:08,222 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3c 19
+2023-07-23 20:27:08,223 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 0 0
+2023-07-23 20:27:08,224 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 	Abrev Entry: 23 15 0
+2023-07-23 20:27:08,225 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 27 19
+2023-07-23 20:27:08,226 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 0 0
+2023-07-23 20:27:08,228 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 	Abrev Entry: 24 34 0
+2023-07-23 20:27:08,229 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 47 13
+2023-07-23 20:27:08,229 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3a b
+2023-07-23 20:27:08,230 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3b 5
+2023-07-23 20:27:08,231 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 2 18
+2023-07-23 20:27:08,232 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 0 0
+2023-07-29 19:15:18,225 [INFO] Activator:176 - 
+
+
+2023-07-29 19:15:18,296 [INFO] Activator:177 - !SESSION log4j initialized
+2023-07-29 19:16:38,772 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://download.eclipse.org:443: The target server failed to respond
+2023-07-29 19:16:38,830 [INFO] RetryExec:113 - Retrying request to {s}->https://download.eclipse.org:443
+2023-07-29 19:16:39,870 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://archive.eclipse.org:443: The target server failed to respond
+2023-07-29 19:16:39,870 [INFO] RetryExec:113 - Retrying request to {s}->https://archive.eclipse.org:443
+2023-07-29 19:16:41,083 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://download.eclipse.org:443: The target server failed to respond
+2023-07-29 19:16:41,083 [INFO] RetryExec:113 - Retrying request to {s}->https://download.eclipse.org:443
+2023-07-30 10:58:32,643 [INFO] Activator:176 - 
+
+
+2023-07-30 10:58:32,818 [INFO] Activator:177 - !SESSION log4j initialized
+2023-07-30 11:01:16,125 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://download.eclipse.org:443: The target server failed to respond
+2023-07-30 11:01:16,143 [INFO] RetryExec:113 - Retrying request to {s}->https://download.eclipse.org:443
+2023-07-30 11:01:17,232 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://archive.eclipse.org:443: The target server failed to respond
+2023-07-30 11:01:17,233 [INFO] RetryExec:113 - Retrying request to {s}->https://archive.eclipse.org:443
+2023-07-30 11:01:18,351 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://download.eclipse.org:443: The target server failed to respond
+2023-07-30 11:01:18,351 [INFO] RetryExec:113 - Retrying request to {s}->https://download.eclipse.org:443
+2023-08-01 22:25:02,326 [INFO] Activator:176 - 
+
+
+2023-08-01 22:25:02,472 [INFO] Activator:177 - !SESSION log4j initialized
+2023-08-01 22:27:12,581 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://archive.eclipse.org:443: The target server failed to respond
+2023-08-01 22:27:12,881 [INFO] RetryExec:113 - Retrying request to {s}->https://archive.eclipse.org:443
+2023-08-01 22:27:14,047 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://download.eclipse.org:443: The target server failed to respond
+2023-08-01 22:27:14,048 [INFO] RetryExec:113 - Retrying request to {s}->https://download.eclipse.org:443
+2023-08-02 21:54:35,443 [INFO] Activator:176 - 
+
+
+2023-08-02 21:54:35,504 [INFO] Activator:177 - !SESSION log4j initialized
+2023-08-02 21:55:13,327 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://sw-center.st.com:80: The target server failed to respond
+2023-08-02 21:55:13,353 [INFO] RetryExec:113 - Retrying request to {}->http://sw-center.st.com:80
+2023-08-02 21:55:15,457 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://sw-center.st.com:80: The target server failed to respond
+2023-08-02 21:55:15,458 [INFO] RetryExec:113 - Retrying request to {}->http://sw-center.st.com:80
+2023-08-02 21:55:17,736 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://sw-center.st.com:80: The target server failed to respond
+2023-08-02 21:55:17,736 [INFO] RetryExec:113 - Retrying request to {}->http://sw-center.st.com:80
+2023-08-02 21:55:23,746 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://sw-center.st.com:80: The target server failed to respond
+2023-08-02 21:55:23,746 [INFO] RetryExec:113 - Retrying request to {}->http://sw-center.st.com:80
+2023-08-04 23:27:30,135 [INFO] Activator:176 - 
+
+
+2023-08-04 23:27:30,207 [INFO] Activator:177 - !SESSION log4j initialized
+2023-08-04 23:29:03,654 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://download.eclipse.org:443: The target server failed to respond
+2023-08-04 23:29:03,658 [INFO] RetryExec:113 - Retrying request to {s}->https://download.eclipse.org:443
+2023-08-04 23:29:04,756 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://archive.eclipse.org:443: The target server failed to respond
+2023-08-04 23:29:04,757 [INFO] RetryExec:113 - Retrying request to {s}->https://archive.eclipse.org:443
+2023-08-04 23:29:06,316 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://download.eclipse.org:443: The target server failed to respond
+2023-08-04 23:29:06,317 [INFO] RetryExec:113 - Retrying request to {s}->https://download.eclipse.org:443
+2023-08-21 19:38:26,505 [INFO] Activator:176 - 
+
+
+2023-08-21 19:38:26,520 [INFO] Activator:177 - !SESSION log4j initialized
+2023-08-21 19:40:11,162 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://download.eclipse.org:443: The target server failed to respond
+2023-08-21 19:40:11,375 [INFO] RetryExec:113 - Retrying request to {s}->https://download.eclipse.org:443
+2023-08-21 19:40:12,321 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://archive.eclipse.org:443: The target server failed to respond
+2023-08-21 19:40:12,321 [INFO] RetryExec:113 - Retrying request to {s}->https://archive.eclipse.org:443
+2023-08-21 19:40:13,322 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://download.eclipse.org:443: The target server failed to respond
+2023-08-21 19:40:13,323 [INFO] RetryExec:113 - Retrying request to {s}->https://download.eclipse.org:443
+2023-08-22 20:38:32,629 [INFO] Activator:176 - 
+
+
+2023-08-22 20:38:32,643 [INFO] Activator:177 - !SESSION log4j initialized
+2023-08-22 20:40:40,901 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://download.eclipse.org:443: The target server failed to respond
+2023-08-22 20:40:40,905 [INFO] RetryExec:113 - Retrying request to {s}->https://download.eclipse.org:443
+2023-08-22 20:40:41,898 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://archive.eclipse.org:443: The target server failed to respond
+2023-08-22 20:40:41,898 [INFO] RetryExec:113 - Retrying request to {s}->https://archive.eclipse.org:443
+2023-08-22 20:40:42,998 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://download.eclipse.org:443: The target server failed to respond
+2023-08-22 20:40:43,484 [INFO] RetryExec:113 - Retrying request to {s}->https://download.eclipse.org:443

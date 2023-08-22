@@ -1,0 +1,11 @@
+#include<stdio.h>
+
+int main()
+{
+
+	char* address1 = 0x0000347F211A6345D1;
+
+
+
+	return 0;
+}
