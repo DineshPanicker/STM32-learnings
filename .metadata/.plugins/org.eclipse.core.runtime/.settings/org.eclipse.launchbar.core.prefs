@@ -1,0 +1,12 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Code_Data_memory Debug,org.eclipse.launchbar.core.descriptorType.default\:C_Test.exe,org.eclipse.launchbar.core.descriptorType.default\:ASCII.exe,org.eclipse.launchbar.core.descriptorType.default\:Pointer.exe
+eclipse.preferences.version=1
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Code_Data_memory\ Debug/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Code_Data_memory\ Debug/activeLaunchTarget=null\:---
+org.eclipse.launchbar.core.descriptorType.default\:ASCII.exe/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:ASCII.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:C_Test.exe/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:C_Test.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:Pointer.exe/activeLaunchMode=run
