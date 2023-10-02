@@ -1,5 +1,27 @@
-22:22:26 **** Incremental Build of configuration Debug for project Pointer ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-gcc -o Pointer.exe main.o 
-Info: Nothing to build for Pointer
+23:53:40 **** Build of configuration Debug for project Hello-World ****
+make -j12 all 
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -c -x assembler-with-cpp --specs=nano.specs -mfloat-abi=soft -mthumb -o "Startup/startup_stm32f401retx.o" "../Startup/startup_stm32f401retx.s"
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DNUCLEO_F401RE -DSTM32 -DSTM32F401RETx -DSTM32F4 -DDEBUG -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc "../Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DNUCLEO_F401RE -DSTM32 -DSTM32F401RETx -DSTM32F4 -DDEBUG -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/syscalls.d" -MT"Src/syscalls.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/syscalls.o"
+arm-none-eabi-gcc "../Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DNUCLEO_F401RE -DSTM32 -DSTM32F401RETx -DSTM32F4 -DDEBUG -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/sysmem.d" -MT"Src/sysmem.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/sysmem.o"
+arm-none-eabi-gcc -o "Hello-World.elf" @"objects.list"   -mcpu=cortex-m4 -T"G:\STM32-learnings\Hello-World\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Hello-World.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Hello-World.elf
+ 
+arm-none-eabi-size   Hello-World.elf 
+arm-none-eabi-objdump -h -S  Hello-World.elf  > "Hello-World.list"
+arm-none-eabi-objcopy  -O binary  Hello-World.elf  "Hello-World.bin"
+   text	   data	    bss	    dec	    hex	filename
+   3440	    108	   1580	   5128	   1408	Hello-World.elf
+Finished building: default.size.stdout
+ 
+Finished building: Hello-World.bin
+Finished building: Hello-World.list
+ 
+ 
+23:53:46 **** Incremental Build of configuration Debug for project Hello-World ****
+make -j12 all 
+arm-none-eabi-size   Hello-World.elf 
+   text	   data	    bss	    dec	    hex	filename
+   3440	    108	   1580	   5128	   1408	Hello-World.elf
+Finished building: default.size.stdout
+ 

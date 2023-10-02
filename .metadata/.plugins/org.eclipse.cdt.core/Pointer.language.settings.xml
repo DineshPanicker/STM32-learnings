@@ -16,6 +16,9 @@
 					<entry kind="includePath" name="C:/MinGW/mingw32/include">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
+					<entry kind="includePath" name="G:/MinGW/include">
+						<flag value="BUILTIN|READONLY"/>
+					</entry>
 					<entry kind="macro" name="WIN32" value="1">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
@@ -790,6 +793,9 @@
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
 					<entry kind="includePath" name="C:/MinGW/mingw32/include">
+						<flag value="BUILTIN|READONLY"/>
+					</entry>
+					<entry kind="includePath" name="G:/MinGW/include">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
 					<entry kind="macro" name="WIN32" value="1">
@@ -1682,6 +1688,9 @@
 					<entry kind="includePath" name="C:/MinGW/mingw32/include">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
+					<entry kind="includePath" name="G:/MinGW/include">
+						<flag value="BUILTIN|READONLY"/>
+					</entry>
 					<entry kind="macro" name="WIN32" value="1">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
@@ -2456,6 +2465,9 @@
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
 					<entry kind="includePath" name="C:/MinGW/mingw32/include">
+						<flag value="BUILTIN|READONLY"/>
+					</entry>
+					<entry kind="includePath" name="G:/MinGW/include">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
 					<entry kind="macro" name="WIN32" value="1">
