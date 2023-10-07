@@ -1,27 +1,48 @@
-23:53:40 **** Build of configuration Debug for project Hello-World ****
+00:43:20 **** Build of configuration Debug for project Hello-World_f429zi ****
 make -j12 all 
-arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -c -x assembler-with-cpp --specs=nano.specs -mfloat-abi=soft -mthumb -o "Startup/startup_stm32f401retx.o" "../Startup/startup_stm32f401retx.s"
-arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DNUCLEO_F401RE -DSTM32 -DSTM32F401RETx -DSTM32F4 -DDEBUG -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
-arm-none-eabi-gcc "../Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DNUCLEO_F401RE -DSTM32 -DSTM32F401RETx -DSTM32F4 -DDEBUG -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/syscalls.d" -MT"Src/syscalls.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/syscalls.o"
-arm-none-eabi-gcc "../Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DNUCLEO_F401RE -DSTM32 -DSTM32F401RETx -DSTM32F4 -DDEBUG -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/sysmem.d" -MT"Src/sysmem.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/sysmem.o"
-arm-none-eabi-gcc -o "Hello-World.elf" @"objects.list"   -mcpu=cortex-m4 -T"G:\STM32-learnings\Hello-World\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Hello-World.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: Hello-World.elf
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -c -x assembler-with-cpp --specs=nano.specs -mfloat-abi=soft -mthumb -o "Startup/startup_stm32f429zitx.o" "../Startup/startup_stm32f429zitx.s"
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32 -DSTM32F429ZITx -DSTM32F4 -DDEBUG -DNUCLEO_F429ZI -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc "../Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32 -DSTM32F429ZITx -DSTM32F4 -DDEBUG -DNUCLEO_F429ZI -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/syscalls.d" -MT"Src/syscalls.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/syscalls.o"
+arm-none-eabi-gcc "../Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32 -DSTM32F429ZITx -DSTM32F4 -DDEBUG -DNUCLEO_F429ZI -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/sysmem.d" -MT"Src/sysmem.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/sysmem.o"
+arm-none-eabi-gcc -o "Hello-World_f429zi.elf" @"objects.list"   -mcpu=cortex-m4 -T"G:\STM32-learnings\Hello-World_f429zi\STM32F429ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Hello-World_f429zi.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Hello-World_f429zi.elf
  
-arm-none-eabi-size   Hello-World.elf 
-arm-none-eabi-objdump -h -S  Hello-World.elf  > "Hello-World.list"
-arm-none-eabi-objcopy  -O binary  Hello-World.elf  "Hello-World.bin"
+arm-none-eabi-size   Hello-World_f429zi.elf 
+arm-none-eabi-objdump -h -S  Hello-World_f429zi.elf  > "Hello-World_f429zi.list"
+arm-none-eabi-objcopy  -O binary  Hello-World_f429zi.elf  "Hello-World_f429zi.bin"
    text	   data	    bss	    dec	    hex	filename
-   3440	    108	   1580	   5128	   1408	Hello-World.elf
+   3464	    108	   1580	   5152	   1420	Hello-World_f429zi.elf
 Finished building: default.size.stdout
  
-Finished building: Hello-World.bin
-Finished building: Hello-World.list
+Finished building: Hello-World_f429zi.bin
+Finished building: Hello-World_f429zi.list
  
  
-23:53:46 **** Incremental Build of configuration Debug for project Hello-World ****
+00:45:10 **** Incremental Build of configuration Debug for project Hello-World_f429zi ****
 make -j12 all 
-arm-none-eabi-size   Hello-World.elf 
+arm-none-eabi-size   Hello-World_f429zi.elf 
    text	   data	    bss	    dec	    hex	filename
-   3440	    108	   1580	   5128	   1408	Hello-World.elf
+   3464	    108	   1580	   5152	   1420	Hello-World_f429zi.elf
+Finished building: default.size.stdout
+ 
+00:46:07 **** Incremental Build of configuration Debug for project Hello-World_f429zi ****
+make -j12 all 
+arm-none-eabi-size   Hello-World_f429zi.elf 
+   text	   data	    bss	    dec	    hex	filename
+   3464	    108	   1580	   5152	   1420	Hello-World_f429zi.elf
+Finished building: default.size.stdout
+ 
+00:46:47 **** Incremental Build of configuration Debug for project Hello-World_f429zi ****
+make -j12 all 
+arm-none-eabi-size   Hello-World_f429zi.elf 
+   text	   data	    bss	    dec	    hex	filename
+   3464	    108	   1580	   5152	   1420	Hello-World_f429zi.elf
+Finished building: default.size.stdout
+ 
+00:47:59 **** Incremental Build of configuration Debug for project Hello-World_f429zi ****
+make -j12 all 
+arm-none-eabi-size   Hello-World_f429zi.elf 
+   text	   data	    bss	    dec	    hex	filename
+   3464	    108	   1580	   5152	   1420	Hello-World_f429zi.elf
 Finished building: default.size.stdout
  

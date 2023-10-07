@@ -1,0 +1,10 @@
+00:47:59 **** Incremental Build of configuration Debug for project Hello-World_f429zi ****
+make -j12 all 
+arm-none-eabi-size   Hello-World_f429zi.elf 
+   text	   data	    bss	    dec	    hex	filename
+   3464	    108	   1580	   5152	   1420	Hello-World_f429zi.elf
+Finished building: default.size.stdout
+ 
+
+00:48:00 Build Finished. 0 errors, 0 warnings. (took 463ms)
+
