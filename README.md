@@ -49,4 +49,4 @@ Let’s dive into the fascinating world of STM32 development! 🔍✨
 Got tips or suggestions? Shoot me a message or open a pull request. Collaboration makes embedded even more fun!  
 
 Happy coding!  
-~ *[Your Name]*  😊  
+~ *Dinesh Panicker*  😊  
