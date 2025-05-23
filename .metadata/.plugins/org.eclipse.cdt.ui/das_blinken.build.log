@@ -1,0 +1,10 @@
+10:02:34 **** Incremental Build of configuration Debug for project das_blinken ****
+make -j12 all 
+arm-none-eabi-size  das_blinken.elf 
+   text	   data	    bss	    dec	    hex	filename
+    728	      8	   1568	   2304	    900	das_blinken.elf
+Finished building: default.size.stdout
+ 
+
+10:02:35 Build Finished. 0 errors, 0 warnings. (took 762ms)
+

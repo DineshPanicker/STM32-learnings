@@ -1,0 +1,4 @@
+../Drivers/CMSIS/Include/core_cm4.h:1688:22:__NVIC_EnableIRQ	16	static
+../Core/Src/user.c:7:6:UserInit	8	static,ignoring_inline_asm
+../Core/Src/user.c:23:6:UserLoop	8	static
+../Core/Src/user.c:32:6:TIM2_IRQHandler	4	static

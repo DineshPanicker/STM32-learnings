@@ -1,0 +1,10 @@
+../Core/Src/scheduler.c:40:6:sInit	16	static
+../Core/Src/scheduler.c:51:6:sDispatchTasks	16	static
+../Core/Src/scheduler.c:73:9:sAddTask	24	static
+../Core/Src/scheduler.c:96:9:sDeleteTask	24	static
+../Core/Src/scheduler.c:126:6:sReportStatus	4	static
+../Core/Src/scheduler.c:133:6:sUpdate	16	static
+../Core/Src/scheduler.c:165:6:sResetTaskReleaseCounter	4	static
+../Core/Src/scheduler.c:170:10:sReturnTaskReleaseCounter	4	static
+../Core/Src/scheduler.c:176:6:sResetOverflowCounter	4	static
+../Core/Src/scheduler.c:182:10:sReturnOverflowCounter	4	static

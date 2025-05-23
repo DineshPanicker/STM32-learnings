@@ -1,0 +1,10 @@
+21:11:48 **** Incremental Build of configuration Debug for project UART_PingPong ****
+make -j12 all 
+arm-none-eabi-size  UART_PingPong.elf 
+   text	   data	    bss	    dec	    hex	filename
+  10688	     28	   1652	  12368	   3050	UART_PingPong.elf
+Finished building: default.size.stdout
+ 
+
+21:11:48 Build Finished. 0 errors, 0 warnings. (took 560ms)
+

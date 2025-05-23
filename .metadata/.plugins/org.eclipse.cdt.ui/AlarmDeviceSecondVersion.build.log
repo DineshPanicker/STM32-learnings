@@ -1,0 +1,10 @@
+20:49:39 **** Incremental Build of configuration Debug for project AlarmDeviceSecondVersion ****
+make -j12 all 
+arm-none-eabi-size  AlarmDeviceSecondVersion.elf 
+   text	   data	    bss	    dec	    hex	filename
+  10176	    180	   1716	  12072	   2f28	AlarmDeviceSecondVersion.elf
+Finished building: default.size.stdout
+ 
+
+20:49:39 Build Finished. 0 errors, 0 warnings. (took 554ms)
+

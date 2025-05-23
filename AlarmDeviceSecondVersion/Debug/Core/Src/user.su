@@ -1,0 +1,6 @@
+../Core/Src/user.c:16:6:UserInit	8	static
+../Core/Src/user.c:22:6:UserLoop	8	static
+../Core/Src/user.c:30:6:ProcessKeys	16	static
+../Core/Src/user.c:45:6:ProcessBuzzer	16	static
+../Core/Src/user.c:69:6:Beep	24	static
+../Core/Src/user.c:83:6:DelayMs	24	static
