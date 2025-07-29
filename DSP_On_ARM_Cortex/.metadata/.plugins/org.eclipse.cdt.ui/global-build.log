@@ -1,0 +1,23 @@
+00:23:39 **** Clean-only build of configuration Debug for project 0_test_dsp ****
+make -j12 clean 
+rm -rf ./Startup/startup_stm32f401retx.d ./Startup/startup_stm32f401retx.o
+rm -rf ./Src/main.cyclo ./Src/main.d ./Src/main.o ./Src/main.su ./Src/syscalls.cyclo ./Src/syscalls.d ./Src/syscalls.o ./Src/syscalls.su ./Src/sysmem.cyclo ./Src/sysmem.d ./Src/sysmem.o ./Src/sysmem.su
+rm -rf 0_test_dsp.elf 0_test_dsp.list 0_test_dsp.map default.size.stdout
+ 
+00:23:40 **** Build of configuration Debug for project 0_test_dsp ****
+make -j12 all 
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Startup/startup_stm32f401retx.d" -MT"Startup/startup_stm32f401retx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Startup/startup_stm32f401retx.o" "../Startup/startup_stm32f401retx.s"
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F401RETx -DSTM32F4 -DSTM32F401xE -c -I../Inc -I"G:/STM32-learnings/DSP_On_ARM_Cortex/0_test_dsp/chip_headers/CMSIS/Include" -I"G:/STM32-learnings/DSP_On_ARM_Cortex/0_test_dsp/chip_headers/CMSIS/Device/ST/STM32F4xx/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+arm-none-eabi-gcc "../Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F401RETx -DSTM32F4 -DSTM32F401xE -c -I../Inc -I"G:/STM32-learnings/DSP_On_ARM_Cortex/0_test_dsp/chip_headers/CMSIS/Include" -I"G:/STM32-learnings/DSP_On_ARM_Cortex/0_test_dsp/chip_headers/CMSIS/Device/ST/STM32F4xx/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/syscalls.d" -MT"Src/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/syscalls.o"
+arm-none-eabi-gcc "../Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F401RETx -DSTM32F4 -DSTM32F401xE -c -I../Inc -I"G:/STM32-learnings/DSP_On_ARM_Cortex/0_test_dsp/chip_headers/CMSIS/Include" -I"G:/STM32-learnings/DSP_On_ARM_Cortex/0_test_dsp/chip_headers/CMSIS/Device/ST/STM32F4xx/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/sysmem.d" -MT"Src/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/sysmem.o"
+arm-none-eabi-gcc -o "0_test_dsp.elf" @"objects.list"   -mcpu=cortex-m4 -T"G:\STM32-learnings\DSP_On_ARM_Cortex\0_test_dsp\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="0_test_dsp.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 0_test_dsp.elf
+ 
+arm-none-eabi-size  0_test_dsp.elf 
+arm-none-eabi-objdump -h -S 0_test_dsp.elf  > "0_test_dsp.list"
+   text	   data	    bss	    dec	    hex	filename
+    736	      8	   1568	   2312	    908	0_test_dsp.elf
+Finished building: default.size.stdout
+ 
+Finished building: 0_test_dsp.list
+ 
