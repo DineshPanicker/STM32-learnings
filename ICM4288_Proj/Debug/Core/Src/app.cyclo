@@ -1,0 +1,4 @@
+../Core/Src/app.cpp:37:6:void app_setup()	2
+../Core/Src/app.cpp:46:6:void app_loop()	2
+../Core/Src/app.cpp:57:1:void __static_initialization_and_destruction_0()	1
+../Core/Src/app.cpp:57:1:cpp)	1

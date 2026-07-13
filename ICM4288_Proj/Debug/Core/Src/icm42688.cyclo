@@ -1,0 +1,9 @@
+../Core/Src/icm42688.cpp:5:1:icm42688::Icm42688::Icm42688(SPI_HandleTypeDef*, GPIO_TypeDef*, uint16_t)	1
+../Core/Src/icm42688.cpp:8:6:void icm42688::Icm42688::csLow()	1
+../Core/Src/icm42688.cpp:9:6:void icm42688::Icm42688::csHigh()	1
+../Core/Src/icm42688.cpp:11:9:uint8_t icm42688::Icm42688::readRegister(uint8_t)	1
+../Core/Src/icm42688.cpp:24:6:void icm42688::Icm42688::writeRegister(uint8_t, uint8_t)	1
+../Core/Src/icm42688.cpp:32:6:void icm42688::Icm42688::readRegisters(uint8_t, uint8_t*, uint16_t)	2
+../Core/Src/icm42688.cpp:46:6:bool icm42688::Icm42688::begin()	2
+../Core/Src/icm42688.cpp:72:20:icm42688::Icm42688::read(icm42688::MotionData&)::<lambda(uint8_t, uint8_t)>	1
+../Core/Src/icm42688.cpp:64:6:bool icm42688::Icm42688::read(icm42688::MotionData&)	2

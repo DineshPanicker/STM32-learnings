@@ -4,21 +4,26 @@
 // main.c through the extern "C" bridge in app.hpp. See app.hpp for why
 // this file exists instead of just renaming main.c to main.cpp.
 //
-// Requires CubeMX's "Generate peripheral initialization as a pair of
-// '.c/.h' files per peripheral" option (Project Manager > Code Generator)
-// so that hspi1/huart2 are declared extern in spi.h/usart.h rather than
-// living only inside main.c.
-//
 // Requires the CS pin's CubeMX "User Label" to be set to IMU_CS, which is
 // what makes CubeMX generate the IMU_CS_GPIO_Port / IMU_CS_Pin macros
-// used below.
+// used below. main.h provides those defines plus the HAL type
+// definitions (SPI_HandleTypeDef, UART_HandleTypeDef); the extern
+// declarations for hspi1/huart2 themselves are given explicitly below
+// since whether main.h re-declares them varies between CubeMX
+// versions/settings.
 
 #include "app.hpp"
-#include "spi.h"    // extern SPI_HandleTypeDef hspi1;
-#include "usart.h"  // extern UART_HandleTypeDef huart2;
-#include "gpio.h"   // IMU_CS_GPIO_Port / IMU_CS_Pin (from the pin's User Label)
+#include "main.h"
 #include "icm42688.hpp"
 #include <cstdio>
+
+// CubeMX defines these as ordinary (non-static) globals in main.c, but
+// whether main.h re-declares them as extern varies between CubeMX
+// versions/settings. Declaring them here directly is version-agnostic:
+// it only requires that hspi1/huart2 exist as globals somewhere, which
+// CubeMX always guarantees.
+extern SPI_HandleTypeDef hspi1;
+extern UART_HandleTypeDef huart2;
 
 namespace {
     // Constructed once, at static-init time. This is safe specifically
