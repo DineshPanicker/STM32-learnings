@@ -1,0 +1,36 @@
+This is not a compiled file -- it shows the exact 3 edits to make in the
+main.c that STM32CubeIDE/CubeMX generates. main.c stays a plain C file
+forever; only these lines inside USER CODE markers are added, so
+regenerating code from the .ioc file after a pinout change is always safe.
+
+--------------------------------------------------------------------------
+1. Add the include (inside the existing USER CODE Includes block):
+
+  /* USER CODE BEGIN Includes */
+  #include "app.hpp"
+  /* USER CODE END Includes */
+
+--------------------------------------------------------------------------
+2. Call app_setup() once, after CubeMX's MX_SPI1_Init()/MX_GPIO_Init()/
+   MX_USART2_UART_Init() calls have already run:
+
+  /* USER CODE BEGIN 2 */
+  app_setup();
+  /* USER CODE END 2 */
+
+--------------------------------------------------------------------------
+3. Call app_loop() once per iteration of the main loop:
+
+  /* USER CODE BEGIN WHILE */
+  while (1)
+  {
+    /* USER CODE END WHILE */
+
+    /* USER CODE BEGIN 3 */
+    app_loop();
+  }
+  /* USER CODE END 3 */
+
+--------------------------------------------------------------------------
+That's it -- main.c never needs to know icm42688.hpp or any C++ type
+exists. All the real logic lives in app.cpp / icm42688.cpp.
